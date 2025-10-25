@@ -1,0 +1,436 @@
+2025-10-24T16:06:10.507108 - --- DNS Resolver starting on 10.0.0.5:53 (from scratch) ---
+2025-10-24T16:06:15.945661 - [QUERY] Received query from ('10.0.0.1', 45016) for google.com
+2025-10-24T16:06:15.946379 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:06:15.947201 - [CACHE] google.com MISS
+2025-10-24T16:06:15.947704 - [STEP] Root: Querying 198.41.0.4 for google.com
+2025-10-24T16:06:16.153524 - [RECV] Received response from 198.41.0.4. RTT: 205.10 ms
+2025-10-24T16:06:16.154336 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:06:16.154793 - [STEP] TLD: Querying 192.41.162.30 for google.com
+2025-10-24T16:06:16.359641 - [RECV] Received response from 192.41.162.30. RTT: 204.43 ms
+2025-10-24T16:06:16.360624 - [REFERRAL] Found glue record for ns2.google.com -> 216.239.34.10
+2025-10-24T16:06:16.361290 - [STEP] Authoritative: Querying 216.239.34.10 for google.com
+2025-10-24T16:06:16.390385 - [RECV] Received response from 216.239.34.10. RTT: 28.63 ms
+2025-10-24T16:06:16.391014 - [SUCCESS] Found A record: google.com -> 142.250.192.110
+2025-10-24T16:06:16.391373 - [CACHE] Storing google.com in cache. TTL: 300s
+2025-10-24T16:06:16.391786 - [DONE] Total resolution time for google.com: 444.11 ms
+2025-10-24T16:06:16.454237 - [QUERY] Received query from ('10.0.0.1', 43392) for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:16.455881 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:06:16.456959 - [CACHE] 110.192.250.142.in-addr.arpa MISS
+2025-10-24T16:06:16.457349 - [STEP] Root: Querying 198.41.0.4 for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:16.665969 - [RECV] Received response from 198.41.0.4. RTT: 206.89 ms
+2025-10-24T16:06:16.666855 - [REFERRAL] Found glue record for f.in-addr-servers.arpa -> 193.0.9.1
+2025-10-24T16:06:16.667380 - [STEP] TLD: Querying 193.0.9.1 for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:16.701935 - [RECV] Received response from 193.0.9.1. RTT: 34.14 ms
+2025-10-24T16:06:16.702487 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:06:16.702829 - [DONE] Total resolution time for 110.192.250.142.in-addr.arpa: 245.48 ms
+2025-10-24T16:06:16.703078 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 43392) for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:16.723507 - [QUERY] Received query from ('10.0.0.1', 55063) for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:16.723999 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:06:16.724283 - [CACHE] 110.192.250.142.in-addr.arpa MISS
+2025-10-24T16:06:16.724561 - [STEP] Root: Querying 198.41.0.4 for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:16.975292 - [RECV] Received response from 198.41.0.4. RTT: 250.24 ms
+2025-10-24T16:06:16.977193 - [REFERRAL] Found glue record for f.in-addr-servers.arpa -> 193.0.9.1
+2025-10-24T16:06:16.977832 - [STEP] TLD: Querying 193.0.9.1 for 110.192.250.142.in-addr.arpa
+2025-10-24T16:06:17.013295 - [RECV] Received response from 193.0.9.1. RTT: 34.89 ms
+2025-10-24T16:06:17.014218 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:06:17.014775 - [DONE] Total resolution time for 110.192.250.142.in-addr.arpa: 290.20 ms
+2025-10-24T16:06:17.015187 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 55063) for 110.192.250.142.in-addr.arpa
+2025-10-24T16:08:05.366351 - [QUERY] Received query from ('10.0.0.1', 44843) for tuhafhaberler.com
+2025-10-24T16:08:05.367416 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:05.368159 - [CACHE] tuhafhaberler.com MISS
+2025-10-24T16:08:05.368903 - [STEP] Root: Querying 198.41.0.4 for tuhafhaberler.com
+2025-10-24T16:08:05.621077 - [RECV] Received response from 198.41.0.4. RTT: 251.42 ms
+2025-10-24T16:08:05.622447 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:05.623101 - [STEP] TLD: Querying 192.41.162.30 for tuhafhaberler.com
+2025-10-24T16:08:05.825414 - [RECV] Received response from 192.41.162.30. RTT: 201.78 ms
+2025-10-24T16:08:05.825977 - [NXDOMAIN] Server reports tuhafhaberler.com does not exist.
+2025-10-24T16:08:05.826533 - [DONE] Total resolution time for tuhafhaberler.com: 457.63 ms
+2025-10-24T16:08:05.882177 - [QUERY] Received query from ('10.0.0.1', 41956) for rtsab.com
+2025-10-24T16:08:05.882681 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:05.883046 - [CACHE] rtsab.com MISS
+2025-10-24T16:08:05.883358 - [STEP] Root: Querying 198.41.0.4 for rtsab.com
+2025-10-24T16:08:06.050602 - [RECV] Received response from 198.41.0.4. RTT: 166.81 ms
+2025-10-24T16:08:06.052642 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:06.053497 - [STEP] TLD: Querying 192.41.162.30 for rtsab.com
+2025-10-24T16:08:06.234874 - [RECV] Received response from 192.41.162.30. RTT: 180.79 ms
+2025-10-24T16:08:06.235662 - [REFERRAL] Found glue record for dns01.dipcon.com -> 193.14.90.50
+2025-10-24T16:08:06.236127 - [STEP] Authoritative: Querying 193.14.90.50 for rtsab.com
+2025-10-24T16:08:06.439768 - [RECV] Received response from 193.14.90.50. RTT: 203.21 ms
+2025-10-24T16:08:06.440485 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:06.441130 - [DONE] Total resolution time for rtsab.com: 557.77 ms
+2025-10-24T16:08:06.441479 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 41956) for rtsab.com
+2025-10-24T16:08:06.497404 - [QUERY] Received query from ('10.0.0.1', 41253) for i-butterfly.ru
+2025-10-24T16:08:06.497976 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:06.499176 - [CACHE] i-butterfly.ru MISS
+2025-10-24T16:08:06.499561 - [STEP] Root: Querying 198.41.0.4 for i-butterfly.ru
+2025-10-24T16:08:06.747079 - [RECV] Received response from 198.41.0.4. RTT: 247.06 ms
+2025-10-24T16:08:06.748030 - [REFERRAL] Found glue record for a.dns.ripn.net -> 193.232.128.6
+2025-10-24T16:08:06.748586 - [STEP] TLD: Querying 193.232.128.6 for i-butterfly.ru
+2025-10-24T16:08:06.965519 - [RECV] Received response from 193.232.128.6. RTT: 216.42 ms
+2025-10-24T16:08:06.966336 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:06.966929 - [DONE] Total resolution time for i-butterfly.ru: 467.36 ms
+2025-10-24T16:08:06.967403 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 41253) for i-butterfly.ru
+2025-10-24T16:08:07.024553 - [QUERY] Received query from ('10.0.0.1', 45963) for datepanchang.com
+2025-10-24T16:08:07.025145 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:07.025556 - [CACHE] datepanchang.com MISS
+2025-10-24T16:08:07.026024 - [STEP] Root: Querying 198.41.0.4 for datepanchang.com
+2025-10-24T16:08:07.193999 - [RECV] Received response from 198.41.0.4. RTT: 167.37 ms
+2025-10-24T16:08:07.195323 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:07.196110 - [STEP] TLD: Querying 192.41.162.30 for datepanchang.com
+2025-10-24T16:08:07.463523 - [RECV] Received response from 192.41.162.30. RTT: 266.83 ms
+2025-10-24T16:08:07.464536 - [REFERRAL] Found glue record for magnolia.ns.cloudflare.com -> 108.162.194.214
+2025-10-24T16:08:07.465163 - [STEP] Authoritative: Querying 108.162.194.214 for datepanchang.com
+2025-10-24T16:08:07.770989 - [RECV] Received response from 108.162.194.214. RTT: 305.19 ms
+2025-10-24T16:08:07.771679 - [SUCCESS] Found A record: datepanchang.com -> 13.75.66.141
+2025-10-24T16:08:07.772414 - [CACHE] Storing datepanchang.com in cache. TTL: 300s
+2025-10-24T16:08:07.773001 - [DONE] Total resolution time for datepanchang.com: 746.98 ms
+2025-10-24T16:08:07.830989 - [QUERY] Received query from ('10.0.0.1', 48635) for localhost.re
+2025-10-24T16:08:07.831607 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:07.832119 - [CACHE] localhost.re MISS
+2025-10-24T16:08:07.832515 - [STEP] Root: Querying 198.41.0.4 for localhost.re
+2025-10-24T16:08:08.077317 - [RECV] Received response from 198.41.0.4. RTT: 244.26 ms
+2025-10-24T16:08:08.078066 - [REFERRAL] Found glue record for d.nic.fr -> 194.0.9.1
+2025-10-24T16:08:08.078589 - [STEP] TLD: Querying 194.0.9.1 for localhost.re
+2025-10-24T16:08:08.283323 - [RECV] Received response from 194.0.9.1. RTT: 204.32 ms
+2025-10-24T16:08:08.284017 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:08.284614 - [DONE] Total resolution time for localhost.re: 452.09 ms
+2025-10-24T16:08:08.285046 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 48635) for localhost.re
+2025-10-24T16:08:08.342556 - [QUERY] Received query from ('10.0.0.1', 53694) for daehepharma.com
+2025-10-24T16:08:08.343188 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:08.343757 - [CACHE] daehepharma.com MISS
+2025-10-24T16:08:08.344182 - [STEP] Root: Querying 198.41.0.4 for daehepharma.com
+2025-10-24T16:08:08.591011 - [RECV] Received response from 198.41.0.4. RTT: 246.02 ms
+2025-10-24T16:08:08.592260 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:08.593132 - [STEP] TLD: Querying 192.41.162.30 for daehepharma.com
+2025-10-24T16:08:08.795062 - [RECV] Received response from 192.41.162.30. RTT: 201.49 ms
+2025-10-24T16:08:08.795837 - [REFERRAL] Found glue record for ns01.dhrcenter.com -> 220.73.163.40
+2025-10-24T16:08:08.796366 - [STEP] Authoritative: Querying 220.73.163.40 for daehepharma.com
+2025-10-24T16:08:09.000380 - [RECV] Received response from 220.73.163.40. RTT: 203.38 ms
+2025-10-24T16:08:09.001112 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:09.001632 - [DONE] Total resolution time for daehepharma.com: 657.45 ms
+2025-10-24T16:08:09.002055 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 53694) for daehepharma.com
+2025-10-24T16:08:09.058340 - [QUERY] Received query from ('10.0.0.1', 59130) for ex-jw.org
+2025-10-24T16:08:09.058821 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:09.059338 - [CACHE] ex-jw.org MISS
+2025-10-24T16:08:09.059820 - [STEP] Root: Querying 198.41.0.4 for ex-jw.org
+2025-10-24T16:08:09.307245 - [RECV] Received response from 198.41.0.4. RTT: 246.82 ms
+2025-10-24T16:08:09.308296 - [REFERRAL] Found glue record for a2.org.afilias-nst.info -> 199.249.112.1
+2025-10-24T16:08:09.309001 - [STEP] TLD: Querying 199.249.112.1 for ex-jw.org
+2025-10-24T16:08:09.399832 - [RECV] Received response from 199.249.112.1. RTT: 90.31 ms
+2025-10-24T16:08:09.400478 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:09.401044 - [DONE] Total resolution time for ex-jw.org: 341.22 ms
+2025-10-24T16:08:09.401504 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 59130) for ex-jw.org
+2025-10-24T16:08:09.459159 - [QUERY] Received query from ('10.0.0.1', 53996) for us.tf
+2025-10-24T16:08:09.459681 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:09.460068 - [CACHE] us.tf MISS
+2025-10-24T16:08:09.460408 - [STEP] Root: Querying 198.41.0.4 for us.tf
+2025-10-24T16:08:09.717061 - [RECV] Received response from 198.41.0.4. RTT: 256.08 ms
+2025-10-24T16:08:09.717940 - [REFERRAL] Found glue record for f.ext.nic.fr -> 194.146.106.46
+2025-10-24T16:08:09.718491 - [STEP] TLD: Querying 194.146.106.46 for us.tf
+2025-10-24T16:08:09.922162 - [RECV] Received response from 194.146.106.46. RTT: 203.15 ms
+2025-10-24T16:08:09.923003 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:09.923597 - [DONE] Total resolution time for us.tf: 463.18 ms
+2025-10-24T16:08:09.923981 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 53996) for us.tf
+2025-10-24T16:08:09.979573 - [QUERY] Received query from ('10.0.0.1', 36153) for informarexresistere.fr
+2025-10-24T16:08:09.980200 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:09.980724 - [CACHE] informarexresistere.fr MISS
+2025-10-24T16:08:09.981097 - [STEP] Root: Querying 198.41.0.4 for informarexresistere.fr
+2025-10-24T16:08:10.134348 - [RECV] Received response from 198.41.0.4. RTT: 152.68 ms
+2025-10-24T16:08:10.135523 - [REFERRAL] Found glue record for f.ext.nic.fr -> 194.146.106.46
+2025-10-24T16:08:10.136200 - [STEP] TLD: Querying 194.146.106.46 for informarexresistere.fr
+2025-10-24T16:08:10.330982 - [RECV] Received response from 194.146.106.46. RTT: 193.89 ms
+2025-10-24T16:08:10.331763 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:08:10.332224 - [DONE] Total resolution time for informarexresistere.fr: 351.12 ms
+2025-10-24T16:08:10.332750 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 36153) for informarexresistere.fr
+2025-10-24T16:08:10.403439 - [QUERY] Received query from ('10.0.0.1', 52356) for running-sigi.de
+2025-10-24T16:08:10.403936 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:10.404345 - [CACHE] running-sigi.de MISS
+2025-10-24T16:08:10.404732 - [STEP] Root: Querying 198.41.0.4 for running-sigi.de
+2025-10-24T16:08:10.638079 - [RECV] Received response from 198.41.0.4. RTT: 232.90 ms
+2025-10-24T16:08:10.639335 - [REFERRAL] Found glue record for a.nic.de -> 194.0.0.53
+2025-10-24T16:08:10.640132 - [STEP] TLD: Querying 194.0.0.53 for running-sigi.de
+2025-10-24T16:08:10.843546 - [RECV] Received response from 194.0.0.53. RTT: 203.00 ms
+2025-10-24T16:08:10.844136 - [NXDOMAIN] Server reports running-sigi.de does not exist.
+2025-10-24T16:08:10.844654 - [DONE] Total resolution time for running-sigi.de: 439.92 ms
+2025-10-24T16:08:10.902713 - [QUERY] Received query from ('10.0.0.1', 41902) for buynowfromusa.com
+2025-10-24T16:08:10.903292 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:10.903653 - [CACHE] buynowfromusa.com MISS
+2025-10-24T16:08:10.904050 - [STEP] Root: Querying 198.41.0.4 for buynowfromusa.com
+2025-10-24T16:08:11.150385 - [RECV] Received response from 198.41.0.4. RTT: 245.69 ms
+2025-10-24T16:08:11.152431 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:11.153681 - [STEP] TLD: Querying 192.41.162.30 for buynowfromusa.com
+2025-10-24T16:08:11.326607 - [RECV] Received response from 192.41.162.30. RTT: 172.27 ms
+2025-10-24T16:08:11.327806 - [REFERRAL] Found glue record for ns-cloud-c1.googledomains.com -> 216.239.32.108
+2025-10-24T16:08:11.328413 - [STEP] Authoritative: Querying 216.239.32.108 for buynowfromusa.com
+2025-10-24T16:08:11.559492 - [RECV] Received response from 216.239.32.108. RTT: 230.36 ms
+2025-10-24T16:08:11.560213 - [SUCCESS] Found A record: buynowfromusa.com -> 35.223.118.1
+2025-10-24T16:08:11.560830 - [CACHE] Storing buynowfromusa.com in cache. TTL: 300s
+2025-10-24T16:08:11.561285 - [DONE] Total resolution time for buynowfromusa.com: 657.20 ms
+2025-10-24T16:08:11.615644 - [QUERY] Received query from ('10.0.0.1', 34001) for pbprofile.com
+2025-10-24T16:08:11.616309 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:11.616975 - [CACHE] pbprofile.com MISS
+2025-10-24T16:08:11.617515 - [STEP] Root: Querying 198.41.0.4 for pbprofile.com
+2025-10-24T16:08:11.867288 - [RECV] Received response from 198.41.0.4. RTT: 249.18 ms
+2025-10-24T16:08:11.868670 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:11.869572 - [STEP] TLD: Querying 192.41.162.30 for pbprofile.com
+2025-10-24T16:08:12.072059 - [RECV] Received response from 192.41.162.30. RTT: 201.84 ms
+2025-10-24T16:08:12.072642 - [NXDOMAIN] Server reports pbprofile.com does not exist.
+2025-10-24T16:08:12.073318 - [DONE] Total resolution time for pbprofile.com: 455.80 ms
+2025-10-24T16:08:12.129185 - [QUERY] Received query from ('10.0.0.1', 40934) for fini.net
+2025-10-24T16:08:12.129887 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:12.130427 - [CACHE] fini.net MISS
+2025-10-24T16:08:12.130919 - [STEP] Root: Querying 198.41.0.4 for fini.net
+2025-10-24T16:08:12.367847 - [RECV] Received response from 198.41.0.4. RTT: 236.32 ms
+2025-10-24T16:08:12.369410 - [REFERRAL] Found glue record for m.gtld-servers.net -> 192.55.83.30
+2025-10-24T16:08:12.370219 - [STEP] TLD: Querying 192.55.83.30 for fini.net
+2025-10-24T16:08:12.584391 - [RECV] Received response from 192.55.83.30. RTT: 213.56 ms
+2025-10-24T16:08:12.585512 - [REFERRAL] Found glue record for ca0.fini.net -> 198.57.196.96
+2025-10-24T16:08:12.586319 - [STEP] Authoritative: Querying 198.57.196.96 for fini.net
+2025-10-24T16:08:12.891640 - [RECV] Received response from 198.57.196.96. RTT: 304.49 ms
+2025-10-24T16:08:12.892650 - [SUCCESS] Found A record: fini.net -> 198.57.192.137
+2025-10-24T16:08:12.893484 - [CACHE] Storing fini.net in cache. TTL: 3600s
+2025-10-24T16:08:12.894103 - [DONE] Total resolution time for fini.net: 763.17 ms
+2025-10-24T16:08:12.956468 - [QUERY] Received query from ('10.0.0.1', 41365) for globalpoliticalspectrum.com
+2025-10-24T16:08:12.957122 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:12.957694 - [CACHE] globalpoliticalspectrum.com MISS
+2025-10-24T16:08:12.958303 - [STEP] Root: Querying 198.41.0.4 for globalpoliticalspectrum.com
+2025-10-24T16:08:13.198185 - [RECV] Received response from 198.41.0.4. RTT: 239.26 ms
+2025-10-24T16:08:13.199881 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:13.201067 - [STEP] TLD: Querying 192.41.162.30 for globalpoliticalspectrum.com
+2025-10-24T16:08:13.370033 - [RECV] Received response from 192.41.162.30. RTT: 168.32 ms
+2025-10-24T16:08:13.370685 - [NXDOMAIN] Server reports globalpoliticalspectrum.com does not exist.
+2025-10-24T16:08:13.371293 - [DONE] Total resolution time for globalpoliticalspectrum.com: 412.96 ms
+2025-10-24T16:08:13.427685 - [QUERY] Received query from ('10.0.0.1', 46421) for 41latitude.com
+2025-10-24T16:08:13.428190 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:08:13.428615 - [CACHE] 41latitude.com MISS
+2025-10-24T16:08:13.428972 - [STEP] Root: Querying 198.41.0.4 for 41latitude.com
+2025-10-24T16:08:13.607777 - [RECV] Received response from 198.41.0.4. RTT: 178.30 ms
+2025-10-24T16:08:13.609304 - [REFERRAL] Found glue record for l.gtld-servers.net -> 192.41.162.30
+2025-10-24T16:08:13.610037 - [STEP] TLD: Querying 192.41.162.30 for 41latitude.com
+2025-10-24T16:08:13.812741 - [RECV] Received response from 192.41.162.30. RTT: 202.07 ms
+2025-10-24T16:08:13.813559 - [REFERRAL] Found glue record for dns1.registrar-servers.com -> 156.154.132.200
+2025-10-24T16:08:13.814163 - [STEP] Authoritative: Querying 156.154.132.200 for 41latitude.com
+2025-10-24T16:08:13.876404 - [RECV] Received response from 156.154.132.200. RTT: 61.58 ms
+2025-10-24T16:08:13.877107 - [ERROR] No answers and no usable glue records found. Failing.
+2025-10-24T16:11:54.304926 - [DONE] Total resolution time for 41latitude.com: 220875.93 ms
+2025-10-24T16:11:54.318489 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 46421) for 41latitude.com
+2025-10-24T16:11:54.323410 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.329975 - [QUERY] Received query from ('10.0.0.1', 52472) for zzxu.cn
+2025-10-24T16:11:54.353811 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.366000 - [CACHE] zzxu.cn MISS
+2025-10-24T16:11:54.373086 - [STEP] Root: Querying 198.41.0.4 for zzxu.cn
+2025-10-24T16:11:54.385409 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.400311 - [DONE] Total resolution time for zzxu.cn: 27.21 ms
+2025-10-24T16:11:54.438469 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 52472) for zzxu.cn
+2025-10-24T16:11:54.441838 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.446727 - [QUERY] Received query from ('10.0.0.1', 37640) for energybulbs.co.uk
+2025-10-24T16:11:54.455654 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.460359 - [CACHE] energybulbs.co.uk MISS
+2025-10-24T16:11:54.467044 - [STEP] Root: Querying 198.41.0.4 for energybulbs.co.uk
+2025-10-24T16:11:54.470528 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.484577 - [DONE] Total resolution time for energybulbs.co.uk: 17.51 ms
+2025-10-24T16:11:54.493153 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 37640) for energybulbs.co.uk
+2025-10-24T16:11:54.501245 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.513580 - [QUERY] Received query from ('10.0.0.1', 49473) for o-ov.com
+2025-10-24T16:11:54.515077 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.541720 - [CACHE] o-ov.com MISS
+2025-10-24T16:11:54.542991 - [STEP] Root: Querying 198.41.0.4 for o-ov.com
+2025-10-24T16:11:54.564719 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.582573 - [DONE] Total resolution time for o-ov.com: 39.56 ms
+2025-10-24T16:11:54.594213 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 49473) for o-ov.com
+2025-10-24T16:11:54.600953 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.609636 - [QUERY] Received query from ('10.0.0.1', 47239) for lozo.com
+2025-10-24T16:11:54.617163 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.632849 - [CACHE] lozo.com MISS
+2025-10-24T16:11:54.634371 - [STEP] Root: Querying 198.41.0.4 for lozo.com
+2025-10-24T16:11:54.640322 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.648449 - [DONE] Total resolution time for lozo.com: 14.06 ms
+2025-10-24T16:11:54.656095 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 47239) for lozo.com
+2025-10-24T16:11:54.663380 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.667351 - [QUERY] Received query from ('10.0.0.1', 36780) for tottenhamhk.com
+2025-10-24T16:11:54.680659 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.687600 - [CACHE] tottenhamhk.com MISS
+2025-10-24T16:11:54.695773 - [STEP] Root: Querying 198.41.0.4 for tottenhamhk.com
+2025-10-24T16:11:54.716018 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.716965 - [DONE] Total resolution time for tottenhamhk.com: 21.18 ms
+2025-10-24T16:11:54.730099 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 36780) for tottenhamhk.com
+2025-10-24T16:11:54.732568 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.738565 - [QUERY] Received query from ('10.0.0.1', 41236) for newstetic.com
+2025-10-24T16:11:54.745898 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.750205 - [CACHE] newstetic.com MISS
+2025-10-24T16:11:54.761957 - [STEP] Root: Querying 198.41.0.4 for newstetic.com
+2025-10-24T16:11:54.771517 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.775723 - [DONE] Total resolution time for newstetic.com: 13.76 ms
+2025-10-24T16:11:54.779889 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 41236) for newstetic.com
+2025-10-24T16:11:54.799765 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.801372 - [QUERY] Received query from ('10.0.0.1', 59557) for triggerfish.se
+2025-10-24T16:11:54.807983 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.812121 - [CACHE] triggerfish.se MISS
+2025-10-24T16:11:54.819028 - [STEP] Root: Querying 198.41.0.4 for triggerfish.se
+2025-10-24T16:11:54.833520 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.848423 - [DONE] Total resolution time for triggerfish.se: 29.41 ms
+2025-10-24T16:11:54.852797 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 59557) for triggerfish.se
+2025-10-24T16:11:54.855038 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.861652 - [QUERY] Received query from ('10.0.0.1', 43968) for reprosystems.ru
+2025-10-24T16:11:54.872217 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.875037 - [CACHE] reprosystems.ru MISS
+2025-10-24T16:11:54.877156 - [STEP] Root: Querying 198.41.0.4 for reprosystems.ru
+2025-10-24T16:11:54.894625 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.901976 - [DONE] Total resolution time for reprosystems.ru: 24.81 ms
+2025-10-24T16:11:54.914881 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 43968) for reprosystems.ru
+2025-10-24T16:11:54.920555 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.925755 - [QUERY] Received query from ('10.0.0.1', 36645) for interfloracentral.co.uk
+2025-10-24T16:11:54.930215 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.930869 - [CACHE] interfloracentral.co.uk MISS
+2025-10-24T16:11:54.936456 - [STEP] Root: Querying 198.41.0.4 for interfloracentral.co.uk
+2025-10-24T16:11:54.938841 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.943343 - [DONE] Total resolution time for interfloracentral.co.uk: 6.92 ms
+2025-10-24T16:11:54.945611 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 36645) for interfloracentral.co.uk
+2025-10-24T16:11:54.946710 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.948251 - [QUERY] Received query from ('10.0.0.1', 35314) for afairjudgement.com
+2025-10-24T16:11:54.949546 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:54.952889 - [CACHE] afairjudgement.com MISS
+2025-10-24T16:11:54.958642 - [STEP] Root: Querying 198.41.0.4 for afairjudgement.com
+2025-10-24T16:11:54.959931 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:54.965439 - [DONE] Total resolution time for afairjudgement.com: 6.78 ms
+2025-10-24T16:11:54.977188 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 35314) for afairjudgement.com
+2025-10-24T16:11:54.994778 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.000371 - [QUERY] Received query from ('10.0.0.1', 34665) for owlcreek.com
+2025-10-24T16:11:55.005755 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.013850 - [CACHE] owlcreek.com MISS
+2025-10-24T16:11:55.021896 - [STEP] Root: Querying 198.41.0.4 for owlcreek.com
+2025-10-24T16:11:55.026623 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.038005 - [DONE] Total resolution time for owlcreek.com: 16.11 ms
+2025-10-24T16:11:55.046970 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 34665) for owlcreek.com
+2025-10-24T16:11:55.051198 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.058205 - [QUERY] Received query from ('10.0.0.1', 45699) for radioterminal.ru
+2025-10-24T16:11:55.068716 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.085549 - [CACHE] radioterminal.ru MISS
+2025-10-24T16:11:55.087619 - [STEP] Root: Querying 198.41.0.4 for radioterminal.ru
+2025-10-24T16:11:55.093917 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.094457 - [DONE] Total resolution time for radioterminal.ru: 6.88 ms
+2025-10-24T16:11:55.101301 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 45699) for radioterminal.ru
+2025-10-24T16:11:55.111191 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.133112 - [QUERY] Received query from ('10.0.0.1', 40140) for junio.com
+2025-10-24T16:11:55.146192 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.153347 - [CACHE] junio.com MISS
+2025-10-24T16:11:55.165129 - [STEP] Root: Querying 198.41.0.4 for junio.com
+2025-10-24T16:11:55.176303 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.187563 - [DONE] Total resolution time for junio.com: 22.43 ms
+2025-10-24T16:11:55.191459 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 40140) for junio.com
+2025-10-24T16:11:55.203459 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.211031 - [QUERY] Received query from ('10.0.0.1', 52569) for ditrblog.com
+2025-10-24T16:11:55.217305 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.223815 - [CACHE] ditrblog.com MISS
+2025-10-24T16:11:55.233160 - [STEP] Root: Querying 198.41.0.4 for ditrblog.com
+2025-10-24T16:11:55.234903 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.246483 - [DONE] Total resolution time for ditrblog.com: 13.31 ms
+2025-10-24T16:11:55.249289 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 52569) for ditrblog.com
+2025-10-24T16:11:55.250513 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.252327 - [QUERY] Received query from ('10.0.0.1', 40174) for alchemedialtd.com
+2025-10-24T16:11:55.255636 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.258222 - [CACHE] alchemedialtd.com MISS
+2025-10-24T16:11:55.259643 - [STEP] Root: Querying 198.41.0.4 for alchemedialtd.com
+2025-10-24T16:11:55.264337 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.265725 - [DONE] Total resolution time for alchemedialtd.com: 6.07 ms
+2025-10-24T16:11:55.266336 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 40174) for alchemedialtd.com
+2025-10-24T16:11:55.270593 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.278159 - [QUERY] Received query from ('10.0.0.1', 34506) for portclydegeneralstore.com
+2025-10-24T16:11:55.280492 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.280994 - [CACHE] portclydegeneralstore.com MISS
+2025-10-24T16:11:55.285120 - [STEP] Root: Querying 198.41.0.4 for portclydegeneralstore.com
+2025-10-24T16:11:55.287522 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.288963 - [DONE] Total resolution time for portclydegeneralstore.com: 3.83 ms
+2025-10-24T16:11:55.291156 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 34506) for portclydegeneralstore.com
+2025-10-24T16:11:55.292109 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.300753 - [QUERY] Received query from ('10.0.0.1', 35795) for alenpuaca.com
+2025-10-24T16:11:55.304309 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.308270 - [CACHE] alenpuaca.com MISS
+2025-10-24T16:11:55.309091 - [STEP] Root: Querying 198.41.0.4 for alenpuaca.com
+2025-10-24T16:11:55.310859 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.312669 - [DONE] Total resolution time for alenpuaca.com: 3.56 ms
+2025-10-24T16:11:55.315334 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 35795) for alenpuaca.com
+2025-10-24T16:11:55.317293 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.321190 - [QUERY] Received query from ('10.0.0.1', 42413) for dj-producer-j-mbargo.com
+2025-10-24T16:11:55.324255 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.326523 - [CACHE] dj-producer-j-mbargo.com MISS
+2025-10-24T16:11:55.327006 - [STEP] Root: Querying 198.41.0.4 for dj-producer-j-mbargo.com
+2025-10-24T16:11:55.328675 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.329192 - [DONE] Total resolution time for dj-producer-j-mbargo.com: 2.18 ms
+2025-10-24T16:11:55.331188 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 42413) for dj-producer-j-mbargo.com
+2025-10-24T16:11:55.337887 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.346082 - [QUERY] Received query from ('10.0.0.1', 38454) for iag-inc.com
+2025-10-24T16:11:55.361100 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.374937 - [CACHE] iag-inc.com MISS
+2025-10-24T16:11:55.380033 - [STEP] Root: Querying 198.41.0.4 for iag-inc.com
+2025-10-24T16:11:55.385609 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.388456 - [DONE] Total resolution time for iag-inc.com: 8.41 ms
+2025-10-24T16:11:55.388961 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 38454) for iag-inc.com
+2025-10-24T16:11:55.389950 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.390921 - [QUERY] Received query from ('10.0.0.1', 33549) for advertos.ru
+2025-10-24T16:11:55.392955 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.394034 - [CACHE] advertos.ru MISS
+2025-10-24T16:11:55.403556 - [STEP] Root: Querying 198.41.0.4 for advertos.ru
+2025-10-24T16:11:55.407202 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.409499 - [DONE] Total resolution time for advertos.ru: 5.94 ms
+2025-10-24T16:11:55.425010 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 33549) for advertos.ru
+2025-10-24T16:11:55.438556 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.455764 - [QUERY] Received query from ('10.0.0.1', 55200) for kh.ua
+2025-10-24T16:11:55.469023 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.473858 - [CACHE] kh.ua MISS
+2025-10-24T16:11:55.493279 - [STEP] Root: Querying 198.41.0.4 for kh.ua
+2025-10-24T16:11:55.498760 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.508950 - [DONE] Total resolution time for kh.ua: 15.67 ms
+2025-10-24T16:11:55.517146 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 55200) for kh.ua
+2025-10-24T16:11:55.518044 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.527094 - [QUERY] Received query from ('10.0.0.1', 57912) for kennethehartman.com
+2025-10-24T16:11:55.546555 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.547599 - [CACHE] kennethehartman.com MISS
+2025-10-24T16:11:55.560541 - [STEP] Root: Querying 198.41.0.4 for kennethehartman.com
+2025-10-24T16:11:55.565185 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.573525 - [DONE] Total resolution time for kennethehartman.com: 12.97 ms
+2025-10-24T16:11:55.586342 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 57912) for kennethehartman.com
+2025-10-24T16:11:55.591868 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.596622 - [QUERY] Received query from ('10.0.0.1', 56428) for hemcolubricants.com
+2025-10-24T16:11:55.602950 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.607452 - [CACHE] hemcolubricants.com MISS
+2025-10-24T16:11:55.608536 - [STEP] Root: Querying 198.41.0.4 for hemcolubricants.com
+2025-10-24T16:11:55.610770 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.615442 - [DONE] Total resolution time for hemcolubricants.com: 6.88 ms
+2025-10-24T16:11:55.617187 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 56428) for hemcolubricants.com
+2025-10-24T16:11:55.617795 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.622695 - [QUERY] Received query from ('10.0.0.1', 47080) for forpsi.net
+2025-10-24T16:11:55.625004 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.626371 - [CACHE] forpsi.net MISS
+2025-10-24T16:11:55.631420 - [STEP] Root: Querying 198.41.0.4 for forpsi.net
+2025-10-24T16:11:55.636348 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.638653 - [DONE] Total resolution time for forpsi.net: 7.22 ms
+2025-10-24T16:11:55.641285 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 47080) for forpsi.net
+2025-10-24T16:11:55.645521 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.649472 - [QUERY] Received query from ('10.0.0.1', 56455) for memeblender.com
+2025-10-24T16:11:55.652835 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.665930 - [CACHE] memeblender.com MISS
+2025-10-24T16:11:55.666526 - [STEP] Root: Querying 198.41.0.4 for memeblender.com
+2025-10-24T16:11:55.670135 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.671492 - [DONE] Total resolution time for memeblender.com: 4.95 ms
+2025-10-24T16:11:55.672501 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 56455) for memeblender.com
+2025-10-24T16:11:55.673418 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.686842 - [QUERY] Received query from ('10.0.0.1', 36671) for somode.com
+2025-10-24T16:11:55.688028 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.692670 - [CACHE] somode.com MISS
+2025-10-24T16:11:55.693130 - [STEP] Root: Querying 198.41.0.4 for somode.com
+2025-10-24T16:11:55.694431 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.712265 - [DONE] Total resolution time for somode.com: 19.11 ms
+2025-10-24T16:11:55.715778 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 36671) for somode.com
+2025-10-24T16:11:55.721923 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.724491 - [QUERY] Received query from ('10.0.0.1', 58884) for gamemob.com
+2025-10-24T16:11:55.747205 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.751780 - [CACHE] gamemob.com MISS
+2025-10-24T16:11:55.761205 - [STEP] Root: Querying 198.41.0.4 for gamemob.com
+2025-10-24T16:11:55.763749 - [ERROR] Unhandled exception during query: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.768745 - [DONE] Total resolution time for gamemob.com: 7.51 ms
+2025-10-24T16:11:55.783823 - [FAIL] Sending SERVFAIL to ('10.0.0.1', 58884) for gamemob.com
+2025-10-24T16:11:55.791451 - [FATAL] Main loop error: [Errno 101] Network is unreachable
+2025-10-24T16:11:55.799310 - [QUERY] Received query from ('10.0.0.1', 35868) for monsterhomesecuritystore.com
+2025-10-24T16:11:55.800077 - [MODE] Recursive (Client requested, we will iterate)
+2025-10-24T16:11:55.820697 - [CACHE] monsterhomesecuritystore.com MISS
