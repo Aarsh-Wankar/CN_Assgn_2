@@ -25,11 +25,11 @@ def measure_dns_performance(domain_file):
     successful_resolves = []
 
     print(f"Starting resolution for {total_queries} domains...")
-    for domain in domains:
+    for i, domain in enumerate(domains):
         try:
-            # Use dig with a 2-second timeout per query
-            command = ['dig', '+time=2', '+tries=1', '+stats', domain]
-            result = subprocess.run(command, capture_output=True, text=True, timeout=3)
+            # Use dig with a 15-second timeout per query
+            command = ['dig', '+time=15', '+tries=1', '+stats', domain]
+            result = subprocess.run(command, capture_output=True, text=True, timeout=16)
 
             # Check dig's output for success (NOERROR)
             if "status: NOERROR" in result.stdout:
@@ -39,10 +39,13 @@ def measure_dns_performance(domain_file):
                 if match:
                     latencies.append(int(match.group(1)))
                 successful_resolves.append(domain)
+                print(f"{domain} {i} successful.")
             else:
                 fail_count += 1
+                print(f"{domain} {i} failed.")
         except subprocess.TimeoutExpired:
             fail_count += 1 # Count a command timeout as a failure
+            print(f"{domain} {i} timed out.")
 
     end_time = time.time()
     total_duration = end_time - start_time
