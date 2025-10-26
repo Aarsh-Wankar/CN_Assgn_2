@@ -38,6 +38,7 @@ class Resolver:
             query_start = time.time()
             for ip in next_server_ip:
                 response = self.query(dns_packet, ip, query_count)
+                if response: break
             rtt = time.time() - query_start
 
             if response is None:
