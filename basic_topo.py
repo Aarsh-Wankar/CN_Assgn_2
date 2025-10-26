@@ -6,30 +6,29 @@ from mininet.link import TCLink
 from mininet.nodelib import NAT
 
 def customTopo():
-    "Create a network with an explicitly configured NAT gateway."
     net = Mininet(controller=Controller, link=TCLink)
 
     net.addController('c0')
 
-    # Add switches first
+    # Adding switches
     s1 = net.addSwitch('s1')
     s2 = net.addSwitch('s2')
     s3 = net.addSwitch('s3')
     s4 = net.addSwitch('s4')
 
-    # FIX: Define the gateway IP and assign it explicitly to the NAT node.
+    # Adding NAT
     gateway_ip = '10.0.0.254'
     nat = net.addNAT(ip=f'{gateway_ip}/24', connect='s1')
     nat.configDefault()
 
-    # Now use the explicitly defined gateway IP for the default routes.
+    # Adding hosts
     h1 = net.addHost('h1', ip='10.0.0.1/24', defaultRoute=f'via {gateway_ip}')
     h2 = net.addHost('h2', ip='10.0.0.2/24', defaultRoute=f'via {gateway_ip}')
     h3 = net.addHost('h3', ip='10.0.0.3/24', defaultRoute=f'via {gateway_ip}')
     h4 = net.addHost('h4', ip='10.0.0.4/24', defaultRoute=f'via {gateway_ip}')
     dns = net.addHost('dns', ip='10.0.0.5/24', defaultRoute=f'via {gateway_ip}')
 
-    # Add links
+    # Adding links
     net.addLink(h1, s1, bw=100, delay='2ms')
     net.addLink(h2, s2, bw=100, delay='2ms')
     net.addLink(dns, s2, bw=100, delay='1ms')
@@ -43,7 +42,8 @@ def customTopo():
     net.start()
     print("Configuring hosts to use public DNS (8.8.8.8)...")
     for host in [h1, h2, h3, h4]:
-        host.cmd('echo "nameserver 8.8.8.8" > /etc/resolv.conf')
+        host.cmd(f'bash -c "echo nameserver 8.8.8.8 > /etc/resolv.conf"')
+
     
     print("Topology created successfully!")
     print(f"NAT Gateway is running at {gateway_ip}")

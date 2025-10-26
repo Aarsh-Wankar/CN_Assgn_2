@@ -1,5 +1,5 @@
 import scapy as sp
-import pandas as pd
+# import pandas as pd
 import socket
 from scapy.all import DNS, raw, DNSRR, DNSQR
 import time
@@ -9,6 +9,7 @@ class Resolver:
         self.root_server = root_server
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.socket.settimeout(5)
+        self.socket.bind(('10.0.0.5', 0))
             
     def resolve(self, dns_packet, depth=0):
         if depth > 10:
@@ -28,9 +29,9 @@ class Resolver:
                 for x in response.an:
                     if x.type == 1:
                         print("Resolved IP", x.rdata)
-                        print("time to resolve and ip", time.time() - start_time, x)
+                        print("time to resolve and ip", time.time() - start_time, x.rdata)
                         return response.an[0].rdata
-                    elif response.ns[0].type == 5: # we get a CNAME RR back
+                    elif x.type == 5: # we get a CNAME RR back
                         dns_packet = DNS(qd = DNSQR(qname=x.rdata))
                         ip_address = self.root_server
 
@@ -81,24 +82,42 @@ class Resolver:
             
     def listen(self):
         listen_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        listen_socket.bind(('127.0.0.1', 5353))
+        # listen_socket = self.socket        
+        # listen_socket.bind(('127.0.0.1', 5353))
+        listen_socket.bind(('10.0.0.5', 53))
+
         while True:
-            dns_packet, client_address = listen_socket.recvfrom(512) # 512 buffer size should be big enough
+            try:
+                dns_packet, client_address = listen_socket.recvfrom(512) # 512 buffer size should be big enough
+            except:
+                continue
             result = self.resolve(dns_packet)
             if result:
-                response = DNS(dns_packet)
-                response.an = DNSRR(rrname=response.qd.qname, rdata=result)
-                listen_socket.sendto(raw(response), client_address)
+                # response = DNS(dns_packet)
+                # response.an = DNSRR(rrname=response.qd.qname, rdata=result)
+                # response.qr = 1
+                # print(client_address)
+                # listen_socket.sendto(raw(response), client_address)
+                req = DNS(dns_packet)
+                resp = DNS(
+                    id=req.id,
+                    qr=1, aa=1, ra=1, rcode=0,
+                    qd=req.qd,
+                    an=DNSRR(rrname=req.qd.qname, type='A', ttl=60, rdata=result)
+                )
+                listen_socket.sendto(raw(resp), client_address)
+                print(f"Sent reply {result} to {client_address}")
 
 if __name__ == "__main__":
     r = Resolver("198.41.0.4")
-    a = []
-    with open('f_urls_h2.txt') as f:
-        for line in f:
-            url = line.strip()
-            if url:
-                if not url.endswith('.'):
-                    url += '.'
-                a.append(r.resolve(DNS(qd=DNSQR(qname=url))))
+    # a = []
+    # with open('f_urls_h2.txt') as f:
+    #     for line in f:
+    #         url = line.strip()
+    #         if url:
+    #             if not url.endswith('.'):
+    #                 url += '.'
+    #             a.append(r.resolve(DNS(qd=DNSQR(qname=url))))
 
-    print(len(a), a.count(None))
+    # print(len(a), a.count(None))
+    r.listen()

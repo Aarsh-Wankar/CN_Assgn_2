@@ -11,18 +11,15 @@ def customTopo():
 
     net.addController('c0')
 
-    # Add switches first
     s1 = net.addSwitch('s1')
     s2 = net.addSwitch('s2')
     s3 = net.addSwitch('s3')
     s4 = net.addSwitch('s4')
 
-    # FIX: Define the gateway IP and assign it explicitly to the NAT node.
     gateway_ip = '10.0.0.254'
     nat = net.addNAT(ip=f'{gateway_ip}/24', connect='s1')
     nat.configDefault()
 
-    # Now use the explicitly defined gateway IP for the default routes.
     h1 = net.addHost('h1', ip='10.0.0.1/24', defaultRoute=f'via {gateway_ip}')
     h2 = net.addHost('h2', ip='10.0.0.2/24', defaultRoute=f'via {gateway_ip}')
     h3 = net.addHost('h3', ip='10.0.0.3/24', defaultRoute=f'via {gateway_ip}')
@@ -43,12 +40,11 @@ def customTopo():
     net.start()
     print("Configuring hosts to use public DNS (8.8.8.8)...")
     for host in [h1, h2, h3, h4]:
-        host.cmd('echo "nameserver 8.8.8.8" > /etc/resolv.conf')
+        host.cmd(f'bash -c "echo nameserver 8.8.8.8 > /etc/resolv.conf"')
     
     print("Topology created successfully!")
     print(f"NAT Gateway is running at {gateway_ip}")
 
-    # --- RUN THE EXPERIMENT FOR PART B ---
     print("\n--- Starting DNS Performance Measurement (Part B) ---")
     hosts_to_test = {'h1': h1, 'h2': h2, 'h3': h3, 'h4': h4}
     
@@ -59,8 +55,6 @@ def customTopo():
         
         print(f"\n>>> Running test on {hostname} using {domain_file}...")
         
-        # Execute the measurement script on the host. The output will be
-        # printed directly to your console.
         result = host_obj.cmd(f'python3 measure_dns.py {domain_file}')
         print(result)
 

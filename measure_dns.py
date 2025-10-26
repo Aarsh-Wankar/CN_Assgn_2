@@ -22,6 +22,7 @@ def measure_dns_performance(domain_file):
     total_queries = len(domains)
 
     start_time = time.time()
+    successful_resolves = []
 
     print(f"Starting resolution for {total_queries} domains...")
     for domain in domains:
@@ -37,6 +38,7 @@ def measure_dns_performance(domain_file):
                 match = re.search(r'Query time: (\d+) msec', result.stdout)
                 if match:
                     latencies.append(int(match.group(1)))
+                successful_resolves.append(domain)
             else:
                 fail_count += 1
         except subprocess.TimeoutExpired:
@@ -49,7 +51,7 @@ def measure_dns_performance(domain_file):
     avg_latency = sum(latencies) / len(latencies) if latencies else 0
     throughput = total_queries / total_duration if total_duration > 0 else 0
     tfin = time.time()
-
+    print(successful_resolves)
     print("\n--- DNS Performance Results ---")
     print(f"Total Queries Attempted: {total_queries}")
     print(f"Successfully Resolved:    {success_count}")
