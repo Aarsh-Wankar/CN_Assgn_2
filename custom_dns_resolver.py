@@ -110,14 +110,4 @@ class Resolver:
 
 if __name__ == "__main__":
     r = Resolver("198.41.0.4")
-    # a = []
-    # with open('f_urls_h2.txt') as f:
-    #     for line in f:
-    #         url = line.strip()
-    #         if url:
-    #             if not url.endswith('.'):
-    #                 url += '.'
-    #             a.append(r.resolve(DNS(qd=DNSQR(qname=url))))
-
-    # print(len(a), a.count(None))
     r.listen()

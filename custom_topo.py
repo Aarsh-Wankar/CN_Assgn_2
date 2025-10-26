@@ -43,7 +43,6 @@ def customTopo():
     net.start()
     print(f"Configuring hosts to use local DNS node ({dns.IP()})...")
     for host in [h1, h2, h3, h4]:
-        # host.cmd(f'echo "nameserver {dns.IP()}" > /etc/resolv.conf')
         host.cmd(f'bash -c "echo nameserver {dns.IP()} > /etc/resolv.conf"')
     
     print("Topology created successfully!")
