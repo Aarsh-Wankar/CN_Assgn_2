@@ -29,14 +29,15 @@ class Resolver:
             start_time = time.time()
             self.log(log_buffer, f"Domain: {original_domain} | Mode: Iterative")
             
-        next_server_ip = self.root_server
+        next_server_ip = [self.root_server]
         response = None
 
         while True:
             step = "Root" if level_count[0] == 0 else ("TLD" if level_count[0] == 1 else "Authoritative")
             
             query_start = time.time()
-            response = self.query(dns_packet, next_server_ip, query_count)
+            for ip in next_server_ip:
+                response = self.query(dns_packet, ip, query_count)
             rtt = time.time() - query_start
 
             if response is None:
@@ -62,26 +63,23 @@ class Resolver:
                     self.log(log_buffer, f"Server: {next_server_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: REFERRAL | NS: {response.ns[0].rdata}")
                     level_count[0] += 1
                     
-                    if response.arcount:
+                    if response.arcount: #if the IP addresses of nameservers are already present in additional section
                         ip_addresses = self.get_all_ipv4(response)
                         if not ip_addresses:
                             return None
                         
-                        next_server_ip = ip_addresses[0]
+                        next_server_ip = ip_addresses
                         continue 
                         
                     resolved_ns_ip = None 
+                    next_server_ip = []
                     for i in range(response.nscount):
                         ns_name = response.ns[i].rdata
                         self.log(log_buffer, f"Attempting to resolve NS: {ns_name}")
                         resolved_ns_ip = self.resolve(DNS(qd = DNSQR(qname=ns_name)), log_buffer, query_count, depth + 1, original_domain, start_time)
-                        if resolved_ns_ip:
-                            break 
-                    
-                    if resolved_ns_ip:
-                        next_server_ip = resolved_ns_ip
-                        continue
-                    else:
+                        if resolved_ns_ip: next_server_ip.append(resolved_ns_ip)
+
+                    if not next_server_ip:
                         self.log(log_buffer, f"Failed to resolve any NS records")
                         self.log(log_buffer, f"Domain: {original_domain} | Total Time: {time.time() - start_time:.4f}s | Status: FAILED (NS Resolution)")
                         return None
