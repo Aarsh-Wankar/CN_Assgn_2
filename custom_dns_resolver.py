@@ -38,30 +38,32 @@ class Resolver:
             query_start = time.time()
             for ip in next_server_ip:
                 response = self.query(dns_packet, ip, query_count)
-                if response: break
+                if response:
+                    log_ip = ip
+                    break
             rtt = time.time() - query_start
 
             if response is None:
-                self.log(log_buffer, f"Server: {next_server_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: FAILED")
+                self.log(log_buffer, f"Server: {log_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: FAILED")
                 self.log(log_buffer, f"Domain: {original_domain} | Total Time: {time.time() - start_time:.4f}s | Status: FAILED")
                 return None
 
             if response.ancount:
                 for x in response.an:
                     if x.type == 1:
-                        self.log(log_buffer, f"Server: {next_server_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: ANSWER | IP: {x.rdata}")
+                        self.log(log_buffer, f"Server: {log_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: ANSWER | IP: {x.rdata}")
                         if depth == 0:
                             self.log(log_buffer, f"Domain: {original_domain} | Total Time: {time.time() - start_time:.4f}s | Resolved IP: {x.rdata} | Total DNS Servers visited : {query_count[0]}")
                         return response.an[0].rdata
                     elif x.type == 5:
-                        self.log(log_buffer, f"Server: {next_server_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: CNAME | Target: {x.rdata}")
+                        self.log(log_buffer, f"Server: {log_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: CNAME | Target: {x.rdata}")
                         dns_packet = DNS(qd = DNSQR(qname=x.rdata))
                         next_server_ip = [self.root_server]
                         continue 
 
             elif response.nscount > 0:
                 if response.ns[0].type == 2:
-                    self.log(log_buffer, f"Server: {next_server_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: REFERRAL | NS: {response.ns[0].rdata}")
+                    self.log(log_buffer, f"Server: {log_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: REFERRAL | NS: {response.ns[0].rdata}")
                     level_count[0] += 1
                     
                     if response.arcount: #if the IP addresses of nameservers are already present in additional section
@@ -74,7 +76,8 @@ class Resolver:
                         
                     resolved_ns_ip = None 
                     next_server_ip = []
-                    for i in range(response.nscount):
+
+                    for i in range(response.nscount): #we have to resolve IPS of Name servers
                         ns_name = response.ns[i].rdata
                         self.log(log_buffer, f"Attempting to resolve NS: {ns_name}")
                         resolved_ns_ip = self.resolve(DNS(qd = DNSQR(qname=ns_name)), log_buffer, query_count, depth + 1, original_domain, start_time)
@@ -98,8 +101,6 @@ class Resolver:
         return ipv4_addresses
                 
     def query(self, query_dns_packet, ip_address, query_count):
-        # This is now thread-safe because query_count is a list
-        # unique to this thread's execution.
         query_count[0] += 1 
         try:
             query_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -132,15 +133,14 @@ class Resolver:
                 continue
     
     def handle_query(self, dns_packet_bytes, client_address, listen_socket):
-        log_buffer = [] # 1. Create the private log list
-        query_count = [0] # 2. Create the private query counter
+        log_buffer = [] 
+        query_count = [0] 
         
         try:
             dns_packet = DNS(dns_packet_bytes)
             
             clean_packet = DNS(qd=DNSQR(qname=dns_packet.qd[0].qname)) 
             
-            # 3. Pass the private log_buffer and query_count
             result = self.resolve(clean_packet, log_buffer, query_count)
             
             if result:
@@ -154,10 +154,11 @@ class Resolver:
                 listen_socket.sendto(raw(resp), client_address)
                 print(f"Sent reply {result} to {client_address}")
             
-            # 4. AFTER everything, write the grouped logs to the file
             with self.log_lock:
                 with open('dns_resolution_h4.log', 'a') as f:
                     f.write("\n----- New Query -----\n")
+                    if 'visited' not in log_buffer[-1]:
+                        log_buffer.append('FAILURE IN RESOLUTION')
                     f.write("\n".join(log_buffer))
                     f.write("\n----- End Query -----\n")
                     
