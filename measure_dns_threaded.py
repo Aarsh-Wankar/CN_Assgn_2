@@ -10,8 +10,8 @@ def run_dig(domain, i, lock, latencies, successful_resolves, counts):
     """
     try:
         # Use dig with a 15-second timeout per query
-        command = ['dig', '+time=15', '+tries=1', '+stats', domain]
-        result = subprocess.run(command, capture_output=True, text=True, timeout=16)
+        command = ['dig', '+time=40', '+tries=1', '+stats', domain]
+        result = subprocess.run(command, capture_output=True, text=True, timeout=41)
 
         # --- CRITICAL: Lock before writing to shared lists ---
         with lock:

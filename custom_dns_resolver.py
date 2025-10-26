@@ -56,7 +56,7 @@ class Resolver:
                     elif x.type == 5:
                         self.log(log_buffer, f"Server: {next_server_ip} | Step: {step} | RTT: {rtt:.4f}s | Response: CNAME | Target: {x.rdata}")
                         dns_packet = DNS(qd = DNSQR(qname=x.rdata))
-                        next_server_ip = self.root_server
+                        next_server_ip = [self.root_server]
                         continue 
 
             elif response.nscount > 0:
@@ -156,7 +156,7 @@ class Resolver:
             
             # 4. AFTER everything, write the grouped logs to the file
             with self.log_lock:
-                with open('dns_resolution.log', 'a') as f:
+                with open('dns_resolution_h4.log', 'a') as f:
                     f.write("\n----- New Query -----\n")
                     f.write("\n".join(log_buffer))
                     f.write("\n----- End Query -----\n")
@@ -164,7 +164,7 @@ class Resolver:
         except Exception as e:
             print(f"Error in handle_query thread: {e}")
             with self.log_lock:
-                with open('dns_resolution.log', 'a') as f:
+                with open('dns_resolution_h4.log', 'a') as f:
                     f.write("\n----- Query Failed (Exception) -----\n")
                     f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}] {e}\n")
                     f.write("\n".join(log_buffer))
