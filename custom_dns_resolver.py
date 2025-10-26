@@ -155,7 +155,7 @@ class Resolver:
                 print(f"Sent reply {result} to {client_address}")
             
             with self.log_lock:
-                with open('dns_resolution_h4.log', 'a') as f:
+                with open('dns_resolution_h1.log', 'a') as f:
                     f.write("\n----- New Query -----\n")
                     if 'visited' not in log_buffer[-1]:
                         log_buffer.append('FAILURE IN RESOLUTION')
@@ -165,7 +165,7 @@ class Resolver:
         except Exception as e:
             print(f"Error in handle_query thread: {e}")
             with self.log_lock:
-                with open('dns_resolution_h4.log', 'a') as f:
+                with open('dns_resolution_h1.log', 'a') as f:
                     f.write("\n----- Query Failed (Exception) -----\n")
                     f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}] {e}\n")
                     f.write("\n".join(log_buffer))
