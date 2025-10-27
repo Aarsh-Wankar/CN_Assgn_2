@@ -17,12 +17,10 @@ def customTopo():
     s3 = net.addSwitch('s3')
     s4 = net.addSwitch('s4')
 
-    # FIX: Define the gateway IP and assign it explicitly to the NAT node.
     gateway_ip = '10.0.0.254'
     nat = net.addNAT(ip=f'{gateway_ip}/24', connect='s1')
     nat.configDefault()
 
-    # Now use the explicitly defined gateway IP for the default routes.
     h1 = net.addHost('h1', ip='10.0.0.1/24', defaultRoute=f'via {gateway_ip}')
     h2 = net.addHost('h2', ip='10.0.0.2/24', defaultRoute=f'via {gateway_ip}')
     h3 = net.addHost('h3', ip='10.0.0.3/24', defaultRoute=f'via {gateway_ip}')

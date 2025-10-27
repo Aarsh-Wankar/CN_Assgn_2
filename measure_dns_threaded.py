@@ -13,7 +13,7 @@ def run_dig(domain, i, lock, latencies, successful_resolves, counts):
         command = ['dig', '+time=40', '+tries=1', '+stats', domain]
         result = subprocess.run(command, capture_output=True, text=True, timeout=41)
 
-        # --- CRITICAL: Lock before writing to shared lists ---
+        #  Lock before writing to shared lists
         with lock:
             if "status: NOERROR" in result.stdout:
                 counts['success'] += 1
@@ -26,10 +26,10 @@ def run_dig(domain, i, lock, latencies, successful_resolves, counts):
             else:
                 counts['fail'] += 1
                 print(f"{domain} (Query {i}) failed.")
-        # --- Lock is automatically released here ---
+        # Lock is automatically released here
 
     except subprocess.TimeoutExpired:
-        # --- CRITICAL: Lock before writing to shared list ---
+        # Lock before writing to shared list
         with lock:
             counts['fail'] += 1 # Count a command timeout as a failure
             print(f"{domain} (Query {i}) timed out.")
@@ -46,21 +46,17 @@ def measure_dns_performance(domain_file):
         print(f"Error: Domain file '{domain_file}' not found.")
         sys.exit(1)
 
-    # --- Shared variables for all threads ---
     latencies = []
-    # Using a dict for counts is easier to manage in threads
     counts = {'success': 0, 'fail': 0} 
     successful_resolves = []
     lock = threading.Lock() # The lock to protect shared variables
     threads = [] # To keep track of our threads
-    # ---
     
     total_queries = len(domains)
     start_time = time.time()
 
     print(f"Starting resolution for {total_queries} domains using threads...")
     
-    # --- 1. Start all threads ---
     for i, domain in enumerate(domains):
         # Create a new thread for each domain
         t = threading.Thread(
@@ -71,7 +67,6 @@ def measure_dns_performance(domain_file):
         threads.append(t)
         t.start()
 
-    # --- 2. Wait for all threads to complete ---
     for t in threads:
         t.join() # This blocks until the thread 't' is finished
 
@@ -82,7 +77,6 @@ def measure_dns_performance(domain_file):
     success_count = counts['success']
     fail_count = counts['fail']
 
-    # --- Calculate and Print Metrics ---
     avg_latency = sum(latencies) / len(latencies) if latencies else 0
     throughput = total_queries / total_duration if total_duration > 0 else 0
     tfin = time.time()
