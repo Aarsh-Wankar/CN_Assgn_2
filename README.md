@@ -6,6 +6,12 @@ Note : Due to their large size, we have excluded the PCAP files from this reposi
 
 We recomment using the official mininet Virtual Machine Image along withe the `lxde` Desktop environment for running the scripts. Make sure the VM has access to Internet too. To setup the topology, please run 
 
+First install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
 ```bash
 sudo python basic_topo.py
 ```
