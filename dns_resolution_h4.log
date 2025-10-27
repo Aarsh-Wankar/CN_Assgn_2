@@ -1,0 +1,1251 @@
+
+----- New Query -----
+[2025-10-27 02:20:48.126] Domain: daytimeghosthunter.com. | Mode: Iterative
+[2025-10-27 02:20:48.534] Server: 198.41.0.4 | Step: Root | RTT: 0.3905s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.154] Domain: ngoanhien.com. | Mode: Iterative
+[2025-10-27 02:20:48.857] Server: 198.41.0.4 | Step: Root | RTT: 0.3142s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:47.886] Domain: contentremarketing.com. | Mode: Iterative
+[2025-10-27 02:20:48.608] Server: 198.41.0.4 | Step: Root | RTT: 0.7190s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:49.169] Server: 192.41.162.30 | Step: TLD | RTT: 0.2786s | Response: REFERRAL | NS: b'dns1.stabletransit.com.'
+[2025-10-27 02:20:49.806] Server: 69.20.95.4 | Step: Authoritative | RTT: 0.4602s | Response: ANSWER | IP: 216.10.240.70
+[2025-10-27 02:20:50.253] Domain: contentremarketing.com. | Total Time: 2.3674s | Resolved IP: 216.10.240.70 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:49.431] Domain: tripladoppia.com. | Mode: Iterative
+[2025-10-27 02:20:50.062] Server: 198.41.0.4 | Step: Root | RTT: 0.4019s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:47.901] Domain: iointegrators.com. | Mode: Iterative
+[2025-10-27 02:20:48.487] Server: 198.41.0.4 | Step: Root | RTT: 0.5580s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:49.409] Server: 192.41.162.30 | Step: TLD | RTT: 0.3449s | Response: REFERRAL | NS: b'pdns1.registrar-servers.com.'
+[2025-10-27 02:20:50.095] Server: 156.154.132.100 | Step: Authoritative | RTT: 0.5575s | Response: ANSWER | IP: 76.120.251.25
+[2025-10-27 02:20:50.423] Domain: iointegrators.com. | Total Time: 2.5221s | Resolved IP: 76.120.251.25 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:47.938] Domain: saharaimport.com. | Mode: Iterative
+[2025-10-27 02:20:48.375] Server: 198.41.0.4 | Step: Root | RTT: 0.4284s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:49.063] Server: 192.41.162.30 | Step: TLD | RTT: 0.2987s | Response: REFERRAL | NS: b'ns2.capconnect.com.'
+[2025-10-27 02:20:49.729] Server: 95.217.232.23 | Step: Authoritative | RTT: 0.2961s | Response: ANSWER | IP: 176.9.116.24
+[2025-10-27 02:20:50.325] Domain: saharaimport.com. | Total Time: 2.3876s | Resolved IP: 176.9.116.24 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.655] Domain: breezelaw.com. | Mode: Iterative
+[2025-10-27 02:20:49.249] Server: 198.41.0.4 | Step: Root | RTT: 0.2565s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:50.180] Server: 192.41.162.30 | Step: TLD | RTT: 0.4372s | Response: REFERRAL | NS: b'ns1.afternic.com.'
+[2025-10-27 02:20:50.726] Server: 97.74.98.69 | Step: Authoritative | RTT: 0.3522s | Response: ANSWER | IP: 76.223.54.146
+[2025-10-27 02:20:51.070] Domain: breezelaw.com. | Total Time: 2.4151s | Resolved IP: 76.223.54.146 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.269] Domain: ranocchi.it. | Mode: Iterative
+[2025-10-27 02:20:49.122] Server: 198.41.0.4 | Step: Root | RTT: 0.3773s | Response: REFERRAL | NS: b'a.dns.it.'
+[2025-10-27 02:20:49.946] Server: 194.0.16.215 | Step: TLD | RTT: 0.3864s | Response: REFERRAL | NS: b'ns2.register.it.'
+[2025-10-27 02:20:50.666] Server: 195.7.227.1 | Step: Authoritative | RTT: 0.3061s | Response: ANSWER | IP: 52.18.99.110
+[2025-10-27 02:20:50.985] Domain: ranocchi.it. | Total Time: 2.7162s | Resolved IP: 52.18.99.110 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:49.202] Domain: gardeninginflorida.com. | Mode: Iterative
+[2025-10-27 02:20:49.938] Server: 198.41.0.4 | Step: Root | RTT: 0.4441s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:50.563] Server: 192.41.162.30 | Step: TLD | RTT: 0.2788s | Response: REFERRAL | NS: b'ns19.domaincontrol.com.'
+[2025-10-27 02:20:51.369] Server: 97.74.109.10 | Step: Authoritative | RTT: 0.3178s | Response: ANSWER | IP: 76.223.67.189
+[2025-10-27 02:20:51.665] Domain: gardeninginflorida.com. | Total Time: 2.4624s | Resolved IP: 76.223.67.189 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:49.085] Domain: 22hotmail.com. | Mode: Iterative
+[2025-10-27 02:20:49.801] Server: 198.41.0.4 | Step: Root | RTT: 0.4636s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:50.946] Server: 192.41.162.30 | Step: TLD | RTT: 0.5277s | Response: REFERRAL | NS: b'ns1-05.azure-dns.com.'
+[2025-10-27 02:20:51.696] Server: 13.107.236.5 | Step: Authoritative | RTT: 0.1330s | Response: ANSWER | IP: 20.76.201.171
+[2025-10-27 02:20:52.225] Domain: 22hotmail.com. | Total Time: 3.1402s | Resolved IP: 20.76.201.171 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.027] Domain: gustissimo.it. | Mode: Iterative
+[2025-10-27 02:20:48.653] Server: 198.41.0.4 | Step: Root | RTT: 0.6072s | Response: REFERRAL | NS: b'a.dns.it.'
+[2025-10-27 02:20:49.303] Server: 194.0.16.215 | Step: TLD | RTT: 0.3230s | Response: REFERRAL | NS: b'ns2.espotter.biz.'
+[2025-10-27 02:20:50.539] Server: 178.255.74.3 | Step: Authoritative | RTT: 0.3560s | Response: ANSWER | IP: 178.255.74.133
+[2025-10-27 02:20:51.091] Domain: gustissimo.it. | Total Time: 3.0639s | Resolved IP: 178.255.74.133 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:51.273] Domain: freepornvideosx.com. | Mode: Iterative
+[2025-10-27 02:20:51.849] Server: 198.41.0.4 | Step: Root | RTT: 0.2477s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:52.331] Domain: 120shenbing.com. | Mode: Iterative
+[2025-10-27 02:20:53.125] Server: 198.41.0.4 | Step: Root | RTT: 0.6045s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:49.853] Domain: viahttps.com. | Mode: Iterative
+[2025-10-27 02:20:50.705] Server: 198.41.0.4 | Step: Root | RTT: 0.3266s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:51.725] Server: 192.41.162.30 | Step: TLD | RTT: 0.2597s | Response: REFERRAL | NS: b'ns2.wetrag.net.'
+[2025-10-27 02:20:52.974] Server: 64.251.0.50 | Step: Authoritative | RTT: 0.5512s | Response: ANSWER | IP: 64.251.0.59
+[2025-10-27 02:20:53.334] Domain: viahttps.com. | Total Time: 3.4807s | Resolved IP: 64.251.0.59 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:52.225] Domain: theexoticpersian.com. | Mode: Iterative
+[2025-10-27 02:20:52.768] Server: 198.41.0.4 | Step: Root | RTT: 0.2566s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:50.939] Domain: majorleaguelacrosse.com. | Mode: Iterative
+[2025-10-27 02:20:51.531] Server: 198.41.0.4 | Step: Root | RTT: 0.4834s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:52.636] Server: 192.41.162.30 | Step: TLD | RTT: 0.2987s | Response: REFERRAL | NS: b'zita.ns.cloudflare.com.'
+[2025-10-27 02:20:53.423] Server: 108.162.192.243 | Step: Authoritative | RTT: 0.1431s | Response: ANSWER | IP: 104.21.87.175
+[2025-10-27 02:20:53.911] Domain: majorleaguelacrosse.com. | Total Time: 2.9718s | Resolved IP: 104.21.87.175 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:51.878] Domain: muhammedmusa.com. | Mode: Iterative
+[2025-10-27 02:20:53.144] Server: 198.41.0.4 | Step: Root | RTT: 0.7019s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:50.181] Domain: adverman.com. | Mode: Iterative
+[2025-10-27 02:20:50.792] Server: 198.41.0.4 | Step: Root | RTT: 0.4776s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:51.391] Server: 192.41.162.30 | Step: TLD | RTT: 0.3709s | Response: REFERRAL | NS: b'nsc4.srv53.org.'
+[2025-10-27 02:20:52.805] Server: 178.32.247.8 | Step: Authoritative | RTT: 0.3342s | Response: ANSWER | IP: 77.87.198.232
+[2025-10-27 02:20:53.940] Domain: adverman.com. | Total Time: 3.7586s | Resolved IP: 77.87.198.232 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:53.388] Domain: boneshoppe.com. | Mode: Iterative
+[2025-10-27 02:20:54.302] Server: 198.41.0.4 | Step: Root | RTT: 0.4495s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:53.174] Domain: boh10suphanburi.com. | Mode: Iterative
+[2025-10-27 02:20:54.424] Server: 198.41.0.4 | Step: Root | RTT: 0.6355s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:51.757] Domain: arrabonet.hu. | Mode: Iterative
+[2025-10-27 02:20:52.885] Server: 198.41.0.4 | Step: Root | RTT: 0.4773s | Response: REFERRAL | NS: b'p.hu.'
+[2025-10-27 02:20:53.395] Server: 204.61.216.146 | Step: TLD | RTT: 0.1475s | Response: REFERRAL | NS: b'ns0.arrabonet.hu.'
+[2025-10-27 02:20:54.163] Server: 178.164.230.2 | Step: Authoritative | RTT: 0.3654s | Response: ANSWER | IP: 213.163.44.68
+[2025-10-27 02:20:54.755] Domain: arrabonet.hu. | Total Time: 2.9985s | Resolved IP: 213.163.44.68 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.008] Domain: videofun.me. | Mode: Iterative
+[2025-10-27 02:20:48.387] Server: 198.41.0.4 | Step: Root | RTT: 0.3712s | Response: REFERRAL | NS: b'b0.nic.me.'
+[2025-10-27 02:20:49.132] Server: 199.253.60.1 | Step: TLD | RTT: 0.2243s | Response: REFERRAL | NS: b'dns1.registrar-servers.com.'
+[2025-10-27 02:20:49.496] Attempting to resolve NS: b'dns1.registrar-servers.com.'
+[2025-10-27 02:20:50.167] Server: 198.41.0.4 | Step: Root | RTT: 0.6689s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:50.832] Server: 192.41.162.30 | Step: TLD | RTT: 0.5186s | Response: REFERRAL | NS: b'edns4.ultradns.net.'
+[2025-10-27 02:20:51.444] Server: 204.74.66.4 | Step: Authoritative | RTT: 0.2999s | Response: ANSWER | IP: 156.154.132.200
+[2025-10-27 02:20:52.341] Attempting to resolve NS: b'dns2.registrar-servers.com.'
+[2025-10-27 02:20:52.924] Server: 198.41.0.4 | Step: Root | RTT: 0.5676s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:54.459] Server: 192.41.162.30 | Step: TLD | RTT: 0.4794s | Response: REFERRAL | NS: b'edns4.ultradns.net.'
+[2025-10-27 02:20:54.946] Server: 204.74.66.4 | Step: Authoritative | RTT: 0.2503s | Response: ANSWER | IP: 156.154.133.200
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:52.579] Domain: meditekyazilim.net. | Mode: Iterative
+[2025-10-27 02:20:53.470] Server: 198.41.0.4 | Step: Root | RTT: 0.3401s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:54.330] Server: 192.55.83.30 | Step: TLD | RTT: 0.4719s | Response: REFERRAL | NS: b'ns1.meditek.net.'
+[2025-10-27 02:20:55.090] Server: 185.111.244.210 | Step: Authoritative | RTT: 0.4029s | Response: ANSWER | IP: 185.95.3.218
+[2025-10-27 02:20:55.467] Domain: meditekyazilim.net. | Total Time: 2.8877s | Resolved IP: 185.95.3.218 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:50.751] Domain: rubenquinones.com. | Mode: Iterative
+[2025-10-27 02:20:51.340] Server: 198.41.0.4 | Step: Root | RTT: 0.3307s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:52.920] Server: 192.41.162.30 | Step: TLD | RTT: 0.5271s | Response: REFERRAL | NS: b'ns55.domaincontrol.com.'
+[2025-10-27 02:20:54.120] Server: 97.74.107.28 | Step: Authoritative | RTT: 0.2889s | Response: ANSWER | IP: 15.197.225.128
+[2025-10-27 02:20:55.273] Domain: rubenquinones.com. | Total Time: 4.5220s | Resolved IP: 15.197.225.128 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:54.540] Domain: grandcanyongrandhotel.com. | Mode: Iterative
+[2025-10-27 02:20:55.036] Server: 198.41.0.4 | Step: Root | RTT: 0.2836s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:56.055] Server: 192.41.162.30 | Step: TLD | RTT: 0.5283s | Response: REFERRAL | NS: b'blue.foundationdns.com.'
+[2025-10-27 02:20:56.527] Server: 108.162.198.1 | Step: Authoritative | RTT: 0.2580s | Response: ANSWER | IP: 142.44.217.176
+[2025-10-27 02:20:56.866] Domain: grandcanyongrandhotel.com. | Total Time: 2.3265s | Resolved IP: 142.44.217.176 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:53.057] Domain: overseasmedical.com. | Mode: Iterative
+[2025-10-27 02:20:54.166] Server: 198.41.0.4 | Step: Root | RTT: 0.4089s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:55.818] Server: 192.41.162.30 | Step: TLD | RTT: 0.3991s | Response: REFERRAL | NS: b'ns17.zoneedit.com.'
+[2025-10-27 02:20:56.507] Server: 167.99.46.58 | Step: Authoritative | RTT: 0.4033s | Response: ANSWER | IP: 213.123.239.55
+[2025-10-27 02:20:56.860] Domain: overseasmedical.com. | Total Time: 3.7847s | Resolved IP: 213.123.239.55 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:53.752] Domain: c0.pl. | Mode: Iterative
+[2025-10-27 02:20:54.880] Server: 198.41.0.4 | Step: Root | RTT: 0.8930s | Response: REFERRAL | NS: b'f-dns.pl.'
+[2025-10-27 02:20:55.671] Server: 194.0.25.29 | Step: TLD | RTT: 0.2268s | Response: REFERRAL | NS: b'ns1.cba.pl.'
+[2025-10-27 02:20:56.654] Server: 95.211.144.65 | Step: Authoritative | RTT: 0.4791s | Response: ANSWER | IP: 95.211.144.68
+[2025-10-27 02:20:56.802] Domain: c0.pl. | Total Time: 3.0501s | Resolved IP: 95.211.144.68 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:49.493] Domain: abhair.com. | Mode: Iterative
+[2025-10-27 02:20:50.622] Server: 198.41.0.4 | Step: Root | RTT: 0.2558s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:51.371] Server: 192.41.162.30 | Step: TLD | RTT: 0.3127s | Response: REFERRAL | NS: b'ns1.tierra.net.'
+[2025-10-27 02:20:51.606] Attempting to resolve NS: b'ns1.tierra.net.'
+[2025-10-27 02:20:52.174] Server: 198.41.0.4 | Step: Root | RTT: 0.5650s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:52.800] Server: 192.55.83.30 | Step: TLD | RTT: 0.2985s | Response: REFERRAL | NS: b'ns1.tierra.net.'
+[2025-10-27 02:20:53.585] Server: 72.1.32.185 | Step: Authoritative | RTT: 0.4097s | Response: ANSWER | IP: 72.1.32.185
+[2025-10-27 02:20:53.894] Attempting to resolve NS: b'ns2.tierra.net.'
+[2025-10-27 02:20:54.282] Server: 198.41.0.4 | Step: Root | RTT: 0.3863s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:55.125] Server: 192.55.83.30 | Step: TLD | RTT: 0.3405s | Response: REFERRAL | NS: b'ns1.tierra.net.'
+[2025-10-27 02:20:55.962] Server: 72.1.32.185 | Step: Authoritative | RTT: 0.4445s | Response: ANSWER | IP: 54.82.141.168
+[2025-10-27 02:20:56.655] Server: 72.1.32.185 | Step: Authoritative | RTT: 0.5205s | Response: ANSWER | IP: 23.227.38.32
+[2025-10-27 02:20:57.506] Domain: abhair.com. | Total Time: 8.0132s | Resolved IP: 23.227.38.32 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:56.737] Domain: ereadz.com. | Mode: Iterative
+[2025-10-27 02:20:57.397] Server: 198.41.0.4 | Step: Root | RTT: 0.4400s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.883] Domain: ana-sofia.pt. | Mode: Iterative
+[2025-10-27 02:20:49.481] Server: 198.41.0.4 | Step: Root | RTT: 0.3455s | Response: REFERRAL | NS: b'a.dns.pt.'
+[2025-10-27 02:20:50.295] Server: 185.39.208.1 | Step: TLD | RTT: 0.3407s | Response: REFERRAL | NS: b'ns3.ptservidor.net.'
+[2025-10-27 02:20:50.488] Attempting to resolve NS: b'ns3.ptservidor.net.'
+[2025-10-27 02:20:50.904] Server: 198.41.0.4 | Step: Root | RTT: 0.4141s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:51.774] Server: 192.55.83.30 | Step: TLD | RTT: 0.2171s | Response: REFERRAL | NS: b'ns1.ptservidor.net.'
+[2025-10-27 02:20:53.047] Server: 185.32.188.57 | Step: Authoritative | RTT: 0.5795s | Response: ANSWER | IP: 78.47.99.136
+[2025-10-27 02:20:53.288] Attempting to resolve NS: b'ns1.ptservidor.net.'
+[2025-10-27 02:20:53.682] Server: 198.41.0.4 | Step: Root | RTT: 0.3904s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:54.521] Server: 192.55.83.30 | Step: TLD | RTT: 0.5176s | Response: REFERRAL | NS: b'ns1.ptservidor.net.'
+[2025-10-27 02:20:55.334] Server: 185.32.188.57 | Step: Authoritative | RTT: 0.5263s | Response: ANSWER | IP: 185.32.188.57
+[2025-10-27 02:20:56.077] Attempting to resolve NS: b'ns2.ptservidor.net.'
+[2025-10-27 02:20:56.493] Server: 198.41.0.4 | Step: Root | RTT: 0.4050s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:57.100] Server: 192.55.83.30 | Step: TLD | RTT: 0.3377s | Response: REFERRAL | NS: b'ns1.ptservidor.net.'
+[2025-10-27 02:20:58.299] Server: 185.32.188.57 | Step: Authoritative | RTT: 0.7300s | Response: ANSWER | IP: 46.105.37.1
+[2025-10-27 02:20:58.699] Server: 78.47.99.136 | Step: Authoritative | RTT: 0.2517s | Response: ANSWER | IP: 185.32.190.38
+[2025-10-27 02:20:58.922] Domain: ana-sofia.pt. | Total Time: 10.0388s | Resolved IP: 185.32.190.38 | Total DNS Servers visited : 12
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:56.525] Domain: djbarryblends.com. | Mode: Iterative
+[2025-10-27 02:20:57.281] Server: 198.41.0.4 | Step: Root | RTT: 0.5036s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.079] Server: 192.41.162.30 | Step: TLD | RTT: 0.3127s | Response: REFERRAL | NS: b'ns19.domaincontrol.com.'
+[2025-10-27 02:20:58.786] Server: 97.74.109.10 | Step: Authoritative | RTT: 0.2991s | Response: ANSWER | IP: 54.225.184.165
+[2025-10-27 02:20:58.942] Domain: djbarryblends.com. | Total Time: 2.4172s | Resolved IP: 54.225.184.165 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:56.155] Domain: lespetiteschoses.com. | Mode: Iterative
+[2025-10-27 02:20:56.727] Server: 198.41.0.4 | Step: Root | RTT: 0.4264s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.306] Server: 192.41.162.30 | Step: TLD | RTT: 0.7033s | Response: REFERRAL | NS: b'ns1.dns-parking.com.'
+[2025-10-27 02:20:58.869] Server: 162.159.24.201 | Step: Authoritative | RTT: 0.3543s | Response: ANSWER | IP: 23.227.38.65
+[2025-10-27 02:20:59.102] Domain: lespetiteschoses.com. | Total Time: 2.9470s | Resolved IP: 23.227.38.65 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:50.464] Domain: thepropertyvault.co.uk. | Mode: Iterative
+[2025-10-27 02:20:52.143] Server: 198.41.0.4 | Step: Root | RTT: 0.5093s | Response: REFERRAL | NS: b'dns1.nic.uk.'
+[2025-10-27 02:20:52.807] Server: 213.248.216.1 | Step: TLD | RTT: 0.4062s | Response: REFERRAL | NS: b'ns49.domaincontrol.com.'
+[2025-10-27 02:20:53.189] Attempting to resolve NS: b'ns49.domaincontrol.com.'
+[2025-10-27 02:20:53.597] Server: 198.41.0.4 | Step: Root | RTT: 0.3607s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:54.202] Server: 192.41.162.30 | Step: TLD | RTT: 0.3825s | Response: REFERRAL | NS: b'ans01.domaincontrol.com.'
+[2025-10-27 02:20:55.313] Server: 97.74.97.35 | Step: Authoritative | RTT: 0.5316s | Response: ANSWER | IP: 97.74.104.25
+[2025-10-27 02:20:56.243] Attempting to resolve NS: b'ns50.domaincontrol.com.'
+[2025-10-27 02:20:56.645] Server: 198.41.0.4 | Step: Root | RTT: 0.3910s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:57.351] Server: 192.41.162.30 | Step: TLD | RTT: 0.3099s | Response: REFERRAL | NS: b'ans01.domaincontrol.com.'
+[2025-10-27 02:20:58.353] Server: 97.74.97.35 | Step: Authoritative | RTT: 0.5726s | Response: ANSWER | IP: 173.201.72.25
+[2025-10-27 02:20:59.172] Server: 97.74.104.25 | Step: Authoritative | RTT: 0.2772s | Response: ANSWER | IP: 76.223.67.189
+[2025-10-27 02:20:59.492] Domain: thepropertyvault.co.uk. | Total Time: 9.0280s | Resolved IP: 76.223.67.189 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:51.134] Domain: kanoon-ansar.org. | Mode: Iterative
+[2025-10-27 02:20:52.006] Server: 198.41.0.4 | Step: Root | RTT: 0.4240s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:20:52.909] Server: 199.249.112.1 | Step: TLD | RTT: 0.5335s | Response: REFERRAL | NS: b'hal.ns.cloudflare.com.'
+[2025-10-27 02:20:53.252] Attempting to resolve NS: b'hal.ns.cloudflare.com.'
+[2025-10-27 02:20:53.517] Server: 198.41.0.4 | Step: Root | RTT: 0.2634s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:54.497] Server: 192.41.162.30 | Step: TLD | RTT: 0.6944s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:55.294] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1851s | Response: ANSWER | IP: 108.162.193.174
+[2025-10-27 02:20:56.106] Attempting to resolve NS: b'aron.ns.cloudflare.com.'
+[2025-10-27 02:20:56.444] Server: 198.41.0.4 | Step: Root | RTT: 0.3366s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:57.321] Server: 192.41.162.30 | Step: TLD | RTT: 0.4095s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:58.371] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.6020s | Response: ANSWER | IP: 108.162.192.69
+[2025-10-27 02:20:59.178] Server: 108.162.193.174 | Step: Authoritative | RTT: 0.1985s | Response: ANSWER | IP: 194.59.214.75
+[2025-10-27 02:20:59.766] Domain: kanoon-ansar.org. | Total Time: 8.6318s | Resolved IP: 194.59.214.75 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:52.034] Domain: onetoshop.nl. | Mode: Iterative
+[2025-10-27 02:20:52.902] Server: 198.41.0.4 | Step: Root | RTT: 0.5289s | Response: REFERRAL | NS: b'ns3.dns.nl.'
+[2025-10-27 02:20:53.456] Server: 194.0.25.24 | Step: TLD | RTT: 0.1977s | Response: REFERRAL | NS: b'emily.ns.cloudflare.com.'
+[2025-10-27 02:20:53.874] Attempting to resolve NS: b'emily.ns.cloudflare.com.'
+[2025-10-27 02:20:54.553] Server: 198.41.0.4 | Step: Root | RTT: 0.6755s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:55.771] Server: 192.41.162.30 | Step: TLD | RTT: 0.2771s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:56.312] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1210s | Response: ANSWER | IP: 108.162.192.155
+[2025-10-27 02:20:56.754] Attempting to resolve NS: b'pablo.ns.cloudflare.com.'
+[2025-10-27 02:20:57.501] Server: 198.41.0.4 | Step: Root | RTT: 0.7416s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.343] Server: 192.41.162.30 | Step: TLD | RTT: 0.5526s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:58.825] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.3494s | Response: ANSWER | IP: 108.162.193.220
+[2025-10-27 02:20:59.278] Server: 108.162.192.155 | Step: Authoritative | RTT: 0.1867s | Response: ANSWER | IP: 35.204.76.89
+[2025-10-27 02:20:59.526] Domain: onetoshop.nl. | Total Time: 7.4912s | Resolved IP: 35.204.76.89 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.894] Domain: irflashgame.com. | Mode: Iterative
+[2025-10-27 02:20:59.331] Server: 198.41.0.4 | Step: Root | RTT: 0.3482s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:57.503] Domain: gurukulonline.com. | Mode: Iterative
+[2025-10-27 02:20:58.239] Server: 198.41.0.4 | Step: Root | RTT: 0.6071s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.812] Server: 192.41.162.30 | Step: TLD | RTT: 0.2773s | Response: REFERRAL | NS: b'ns1.afternic.com.'
+[2025-10-27 02:20:59.389] Server: 97.74.98.69 | Step: Authoritative | RTT: 0.3626s | Response: ANSWER | IP: 76.223.54.146
+[2025-10-27 02:20:59.719] Domain: gurukulonline.com. | Total Time: 2.2164s | Resolved IP: 76.223.54.146 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.308] Domain: sf-notifications.com. | Mode: Iterative
+[2025-10-27 02:20:58.808] Server: 198.41.0.4 | Step: Root | RTT: 0.3719s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:59.612] Server: 192.41.162.30 | Step: TLD | RTT: 0.3360s | Response: REFERRAL | NS: b'ns-162.awsdns-20.com.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:47.987] Domain: auto-klad.ru. | Mode: Iterative
+[2025-10-27 02:20:48.328] Server: 198.41.0.4 | Step: Root | RTT: 0.3250s | Response: REFERRAL | NS: b'a.dns.ripn.net.'
+[2025-10-27 02:20:48.979] Server: 193.232.128.6 | Step: TLD | RTT: 0.2948s | Response: REFERRAL | NS: b'ns3.salenames.RU.'
+[2025-10-27 02:20:49.308] Attempting to resolve NS: b'ns3.salenames.RU.'
+[2025-10-27 02:20:49.678] Server: 198.41.0.4 | Step: Root | RTT: 0.3685s | Response: REFERRAL | NS: b'a.dns.ripn.net.'
+[2025-10-27 02:20:50.907] Server: 193.232.128.6 | Step: TLD | RTT: 0.6601s | Response: REFERRAL | NS: b'ns2.r01.RU.'
+[2025-10-27 02:20:51.903] Server: 31.177.76.41 | Step: Authoritative | RTT: 0.3056s | Response: ANSWER | IP: 37.221.193.103
+[2025-10-27 02:20:52.475] Attempting to resolve NS: b'ns4.salenames.RU.'
+[2025-10-27 02:20:52.859] Server: 198.41.0.4 | Step: Root | RTT: 0.3692s | Response: REFERRAL | NS: b'a.dns.ripn.net.'
+[2025-10-27 02:20:59.118] Server: 194.190.124.17 | Step: TLD | RTT: 5.4204s | Response: REFERRAL | NS: b'ns1.r01.RU.'
+[2025-10-27 02:20:59.758] Server: 31.177.80.41 | Step: Authoritative | RTT: 0.2817s | Response: ANSWER | IP: 62.122.170.168
+[2025-10-27 02:21:00.390] Server: 37.221.193.103 | Step: Authoritative | RTT: 0.2822s | Response: ANSWER | IP: 62.122.170.171
+[2025-10-27 02:21:00.674] Domain: auto-klad.ru. | Total Time: 12.6866s | Resolved IP: 62.122.170.171 | Total DNS Servers visited : 10
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:00.539] Domain: carolgraykennedy.com. | Mode: Iterative
+[2025-10-27 02:21:01.367] Server: 198.41.0.4 | Step: Root | RTT: 0.5118s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:00.655] Domain: yunpda.com. | Mode: Iterative
+[2025-10-27 02:21:01.767] Server: 198.41.0.4 | Step: Root | RTT: 0.2461s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:59.436] Domain: millionfareast.com. | Mode: Iterative
+[2025-10-27 02:20:59.878] Server: 198.41.0.4 | Step: Root | RTT: 0.3117s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.652] Server: 192.41.162.30 | Step: TLD | RTT: 0.4098s | Response: REFERRAL | NS: b'ns43.domaincontrol.com.'
+[2025-10-27 02:21:01.236] Server: 97.74.101.22 | Step: Authoritative | RTT: 0.3513s | Response: ANSWER | IP: 72.167.243.77
+[2025-10-27 02:21:01.656] Domain: millionfareast.com. | Total Time: 2.2205s | Resolved IP: 72.167.243.77 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:53.966] Domain: sweathelp.org. | Mode: Iterative
+[2025-10-27 02:20:55.240] Server: 198.41.0.4 | Step: Root | RTT: 0.4232s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:20:56.049] Server: 199.249.112.1 | Step: TLD | RTT: 0.6077s | Response: REFERRAL | NS: b'ns49.domaincontrol.com.'
+[2025-10-27 02:20:56.172] Attempting to resolve NS: b'ns49.domaincontrol.com.'
+[2025-10-27 02:20:56.624] Server: 198.41.0.4 | Step: Root | RTT: 0.3400s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:57.680] Server: 192.41.162.30 | Step: TLD | RTT: 0.7508s | Response: REFERRAL | NS: b'ans01.domaincontrol.com.'
+[2025-10-27 02:20:58.592] Server: 97.74.97.35 | Step: Authoritative | RTT: 0.3226s | Response: ANSWER | IP: 97.74.104.25
+[2025-10-27 02:20:58.919] Attempting to resolve NS: b'ns50.domaincontrol.com.'
+[2025-10-27 02:20:59.373] Server: 198.41.0.4 | Step: Root | RTT: 0.4531s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:59.839] Server: 192.41.162.30 | Step: TLD | RTT: 0.2954s | Response: REFERRAL | NS: b'ans01.domaincontrol.com.'
+[2025-10-27 02:21:00.527] Server: 97.74.97.35 | Step: Authoritative | RTT: 0.2700s | Response: ANSWER | IP: 173.201.72.25
+[2025-10-27 02:21:01.786] Server: 97.74.104.25 | Step: Authoritative | RTT: 0.2868s | Response: ANSWER | IP: 107.180.114.231
+[2025-10-27 02:21:02.190] Domain: sweathelp.org. | Total Time: 8.2245s | Resolved IP: 107.180.114.231 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:54.207] Domain: sipflash.com. | Mode: Iterative
+[2025-10-27 02:20:55.968] Server: 198.41.0.4 | Step: Root | RTT: 0.5803s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:57.074] Server: 192.41.162.30 | Step: TLD | RTT: 0.2831s | Response: REFERRAL | NS: b'ns1.as13445.net.'
+[2025-10-27 02:20:57.660] Attempting to resolve NS: b'ns1.as13445.net.'
+[2025-10-27 02:20:58.256] Server: 198.41.0.4 | Step: Root | RTT: 0.5941s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:58.822] Server: 192.55.83.30 | Step: TLD | RTT: 0.4104s | Response: REFERRAL | NS: b'ns1.as13445.net.'
+[2025-10-27 02:20:59.736] Server: 66.163.52.1 | Step: Authoritative | RTT: 0.1586s | Response: ANSWER | IP: 66.163.52.1
+[2025-10-27 02:21:00.208] Attempting to resolve NS: b'ns2.as13445.net.'
+[2025-10-27 02:21:00.558] Server: 198.41.0.4 | Step: Root | RTT: 0.3380s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:01.121] Server: 192.55.83.30 | Step: TLD | RTT: 0.2551s | Response: REFERRAL | NS: b'ns1.as13445.net.'
+[2025-10-27 02:21:02.155] Server: 66.163.52.1 | Step: Authoritative | RTT: 0.2929s | Response: ANSWER | IP: 66.163.53.1
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:00.093] Domain: skplus.kr. | Mode: Iterative
+[2025-10-27 02:21:00.911] Server: 198.41.0.4 | Step: Root | RTT: 0.2367s | Response: REFERRAL | NS: b'c.dns.kr.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.536] Domain: 7apcrshrmanila.org. | Mode: Iterative
+[2025-10-27 02:21:02.537] Server: 198.41.0.4 | Step: Root | RTT: 0.3230s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:59.914] Domain: cellslider.net. | Mode: Iterative
+[2025-10-27 02:21:00.472] Server: 198.41.0.4 | Step: Root | RTT: 0.3301s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:02.093] Server: 192.55.83.30 | Step: TLD | RTT: 0.2896s | Response: REFERRAL | NS: b'ns1-03.azure-dns.com.'
+[2025-10-27 02:21:02.660] Server: 150.171.21.3 | Step: Authoritative | RTT: 0.2135s | Response: ANSWER | IP: 20.237.25.126
+[2025-10-27 02:21:03.085] Domain: cellslider.net. | Total Time: 3.1709s | Resolved IP: 20.237.25.126 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.070] Domain: myfantasticpark.es. | Mode: Iterative
+[2025-10-27 02:20:48.401] Server: 198.41.0.4 | Step: Root | RTT: 0.3144s | Response: REFERRAL | NS: b'a.nic.es.'
+[2025-10-27 02:20:49.027] Server: 194.69.254.1 | Step: TLD | RTT: 0.3364s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:20:50.448] Attempting to resolve NS: b'ns.udag.de.'
+[2025-10-27 02:20:50.917] Server: 198.41.0.4 | Step: Root | RTT: 0.4678s | Response: REFERRAL | NS: b'a.nic.de.'
+[2025-10-27 02:20:51.885] Server: 194.0.0.53 | Step: TLD | RTT: 0.2984s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:20:52.908] Server: 217.160.80.253 | Step: Authoritative | RTT: 0.4623s | Response: ANSWER | IP: 217.160.80.253
+[2025-10-27 02:20:53.309] Attempting to resolve NS: b'ns.udag.net.'
+[2025-10-27 02:20:53.633] Server: 198.41.0.4 | Step: Root | RTT: 0.3207s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:54.742] Server: 192.55.83.30 | Step: TLD | RTT: 0.3840s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:20:55.687] Server: 185.132.33.253 | Step: Authoritative | RTT: 0.2939s | Response: ANSWER | IP: 185.132.33.253
+[2025-10-27 02:20:56.220] Attempting to resolve NS: b'ns.udag.org.'
+[2025-10-27 02:20:58.267] Server: 198.41.0.4 | Step: Root | RTT: 0.6580s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:20:58.652] Server: 199.249.112.1 | Step: TLD | RTT: 0.2344s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:20:59.295] Server: 185.132.34.253 | Step: Authoritative | RTT: 0.2872s | Response: ANSWER | IP: 185.132.34.253
+[2025-10-27 02:21:00.407] Server: 217.160.80.253 | Step: Authoritative | RTT: 0.2832s | Response: ANSWER | IP: 89.31.143.90
+[2025-10-27 02:21:01.699] Domain: myfantasticpark.es. | Total Time: 13.6292s | Resolved IP: 89.31.143.90 | Total DNS Servers visited : 12
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.833] Domain: 2xfzy.com. | Mode: Iterative
+[2025-10-27 02:20:59.475] Server: 198.41.0.4 | Step: Root | RTT: 0.4357s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.536] Server: 192.41.162.30 | Step: TLD | RTT: 0.4341s | Response: REFERRAL | NS: b'ns1.doibns.com.'
+[2025-10-27 02:21:01.294] Server: 106.15.124.185 | Step: Authoritative | RTT: 0.4872s | Response: ANSWER | IP: 23.226.181.53
+[2025-10-27 02:21:02.260] Domain: 2xfzy.com. | Total Time: 3.4277s | Resolved IP: 23.226.181.53 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:59.995] Domain: bhhsneproperties.com. | Mode: Iterative
+[2025-10-27 02:21:00.588] Server: 198.41.0.4 | Step: Root | RTT: 0.4205s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:01.971] Server: 192.41.162.30 | Step: TLD | RTT: 0.2607s | Response: REFERRAL | NS: b'ns1-07.azure-dns.com.'
+[2025-10-27 02:21:02.550] Server: 13.107.236.7 | Step: Authoritative | RTT: 0.1946s | Response: ANSWER | IP: 8.43.189.250
+[2025-10-27 02:21:03.448] Domain: bhhsneproperties.com. | Total Time: 3.4523s | Resolved IP: 8.43.189.250 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:00.606] Domain: empclan.com. | Mode: Iterative
+[2025-10-27 02:21:01.170] Server: 198.41.0.4 | Step: Root | RTT: 0.2974s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:01.798] Server: 192.41.162.30 | Step: TLD | RTT: 0.3084s | Response: REFERRAL | NS: b'adns.cs.siteprotect.com.'
+[2025-10-27 02:21:03.106] Server: 64.41.112.12 | Step: Authoritative | RTT: 0.4846s | Response: ANSWER | IP: 64.26.30.251
+[2025-10-27 02:21:03.535] Domain: empclan.com. | Total Time: 2.9287s | Resolved IP: 64.26.30.251 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:00.802] Domain: valdo.com. | Mode: Iterative
+[2025-10-27 02:21:01.645] Server: 198.41.0.4 | Step: Root | RTT: 0.3544s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:02.187] Server: 192.41.162.30 | Step: TLD | RTT: 0.2678s | Response: REFERRAL | NS: b'ns-cloud-e1.googledomains.com.'
+[2025-10-27 02:21:03.104] Server: 216.239.32.110 | Step: Authoritative | RTT: 0.2922s | Response: ANSWER | IP: 23.227.38.65
+[2025-10-27 02:21:03.393] Domain: valdo.com. | Total Time: 2.5916s | Resolved IP: 23.227.38.65 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:04.403] Domain: jacquelinemertz.ch. | Mode: Iterative
+[2025-10-27 02:21:04.881] Server: 198.41.0.4 | Step: Root | RTT: 0.3074s | Response: REFERRAL | NS: b'b.nic.ch.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.369] Domain: wiltpr.com. | Mode: Iterative
+[2025-10-27 02:21:03.225] Server: 198.41.0.4 | Step: Root | RTT: 0.4706s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.016] Domain: kiyimuzik.com. | Mode: Iterative
+[2025-10-27 02:21:02.528] Server: 198.41.0.4 | Step: Root | RTT: 0.3158s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:03.082] Server: 192.41.162.30 | Step: TLD | RTT: 0.2676s | Response: REFERRAL | NS: b'paloma.ns.cloudflare.com.'
+[2025-10-27 02:21:04.154] Server: 108.162.194.168 | Step: Authoritative | RTT: 0.2498s | Response: ANSWER | IP: 104.21.63.112
+[2025-10-27 02:21:04.463] Domain: kiyimuzik.com. | Total Time: 3.4467s | Resolved IP: 104.21.63.112 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:51.471] Domain: wordai.com. | Mode: Iterative
+[2025-10-27 02:20:52.315] Server: 198.41.0.4 | Step: Root | RTT: 0.6880s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:53.207] Server: 192.41.162.30 | Step: TLD | RTT: 0.2862s | Response: REFERRAL | NS: b'ns1.monikerdns.net.'
+[2025-10-27 02:20:53.754] Attempting to resolve NS: b'ns1.monikerdns.net.'
+[2025-10-27 02:20:54.352] Server: 198.41.0.4 | Step: Root | RTT: 0.5966s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:55.077] Server: 192.55.83.30 | Step: TLD | RTT: 0.3951s | Response: REFERRAL | NS: b'ns1.monikerdns.net.'
+[2025-10-27 02:20:55.576] Server: 193.227.117.25 | Step: Authoritative | RTT: 0.1982s | Response: ANSWER | IP: 193.227.117.25
+[2025-10-27 02:20:55.866] Attempting to resolve NS: b'ns2.monikerdns.net.'
+[2025-10-27 02:20:56.663] Server: 198.41.0.4 | Step: Root | RTT: 0.6074s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:57.382] Server: 192.55.83.30 | Step: TLD | RTT: 0.4951s | Response: REFERRAL | NS: b'ns1.monikerdns.net.'
+[2025-10-27 02:20:57.901] Server: 193.227.117.25 | Step: Authoritative | RTT: 0.3052s | Response: ANSWER | IP: 194.50.187.25
+[2025-10-27 02:20:58.371] Attempting to resolve NS: b'ns3.monikerdns.net.'
+[2025-10-27 02:20:58.628] Server: 198.41.0.4 | Step: Root | RTT: 0.2553s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:00.020] Server: 192.55.83.30 | Step: TLD | RTT: 0.4721s | Response: REFERRAL | NS: b'ns1.monikerdns.net.'
+[2025-10-27 02:21:00.806] Server: 193.227.117.25 | Step: Authoritative | RTT: 0.1503s | Response: ANSWER | IP: 194.0.182.25
+[2025-10-27 02:21:01.123] Attempting to resolve NS: b'ns4.monikerdns.net.'
+[2025-10-27 02:21:01.404] Server: 198.41.0.4 | Step: Root | RTT: 0.2666s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:02.353] Server: 192.55.83.30 | Step: TLD | RTT: 0.3409s | Response: REFERRAL | NS: b'ns1.monikerdns.net.'
+[2025-10-27 02:21:03.542] Server: 193.227.117.25 | Step: Authoritative | RTT: 0.2197s | Response: ANSWER | IP: 194.0.182.25
+[2025-10-27 02:21:04.294] Server: 193.227.117.25 | Step: Authoritative | RTT: 0.2441s | Response: ANSWER | IP: 23.111.159.202
+[2025-10-27 02:21:04.512] Domain: wordai.com. | Total Time: 13.0412s | Resolved IP: 23.111.159.202 | Total DNS Servers visited : 15
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:55.888] Domain: medintime.ru. | Mode: Iterative
+[2025-10-27 02:20:56.676] Server: 198.41.0.4 | Step: Root | RTT: 0.3771s | Response: REFERRAL | NS: b'a.dns.ripn.net.'
+[2025-10-27 02:20:57.288] Server: 193.232.128.6 | Step: TLD | RTT: 0.3957s | Response: REFERRAL | NS: b'derek.ns.cloudflare.com.'
+[2025-10-27 02:20:57.575] Attempting to resolve NS: b'derek.ns.cloudflare.com.'
+[2025-10-27 02:20:58.014] Server: 198.41.0.4 | Step: Root | RTT: 0.4367s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.726] Server: 192.41.162.30 | Step: TLD | RTT: 0.3218s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:59.597] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1244s | Response: ANSWER | IP: 172.64.33.154
+[2025-10-27 02:21:00.260] Attempting to resolve NS: b'molly.ns.cloudflare.com.'
+[2025-10-27 02:21:00.629] Server: 198.41.0.4 | Step: Root | RTT: 0.3676s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:01.261] Server: 192.41.162.30 | Step: TLD | RTT: 0.3674s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:02.763] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1575s | Response: ANSWER | IP: 173.245.58.205
+[2025-10-27 02:21:03.845] Server: 172.64.33.154 | Step: Authoritative | RTT: 0.4132s | Response: ANSWER | IP: 172.67.129.206
+[2025-10-27 02:21:04.585] Domain: medintime.ru. | Total Time: 8.6963s | Resolved IP: 172.67.129.206 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.372] Domain: ilikecrochet.com. | Mode: Iterative
+[2025-10-27 02:21:02.653] Server: 198.41.0.4 | Step: Root | RTT: 0.2789s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:03.546] Server: 192.41.162.30 | Step: TLD | RTT: 0.2588s | Response: REFERRAL | NS: b'ns-252.awsdns-31.com.'
+[2025-10-27 02:21:04.318] Server: 205.251.192.252 | Step: Authoritative | RTT: 0.2259s | Response: ANSWER | IP: 192.124.249.58
+[2025-10-27 02:21:04.527] Domain: ilikecrochet.com. | Total Time: 3.1552s | Resolved IP: 192.124.249.58 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:03.843] Domain: frasesdemotivacao.net. | Mode: Iterative
+[2025-10-27 02:21:04.753] Server: 198.41.0.4 | Step: Root | RTT: 0.3386s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.790] Domain: myface.com. | Mode: Iterative
+[2025-10-27 02:21:02.929] Server: 198.41.0.4 | Step: Root | RTT: 0.5009s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:03.785] Server: 192.41.162.30 | Step: TLD | RTT: 0.2973s | Response: REFERRAL | NS: b'leia.ns.cloudflare.com.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.580] Domain: megi.cz. | Mode: Iterative
+[2025-10-27 02:21:02.142] Server: 198.41.0.4 | Step: Root | RTT: 0.2860s | Response: REFERRAL | NS: b'a.ns.nic.cz.'
+[2025-10-27 02:21:02.801] Server: 194.0.12.1 | Step: TLD | RTT: 0.3484s | Response: REFERRAL | NS: b'ns.wedos.cz.'
+[2025-10-27 02:21:04.213] Server: 45.138.106.1 | Step: Authoritative | RTT: 0.3441s | Response: ANSWER | IP: 45.138.107.19
+[2025-10-27 02:21:04.478] Domain: megi.cz. | Total Time: 2.8971s | Resolved IP: 45.138.107.19 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.665] Domain: alb-automobiles.com. | Mode: Iterative
+[2025-10-27 02:21:04.375] Server: 198.41.0.4 | Step: Root | RTT: 0.2878s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.090] Domain: itgeorgia.co. | Mode: Iterative
+[2025-10-27 02:20:48.510] Server: 198.41.0.4 | Step: Root | RTT: 0.3967s | Response: REFERRAL | NS: b'c.registrydns.co.'
+[2025-10-27 02:20:49.328] Server: 212.18.248.57 | Step: TLD | RTT: 0.3910s | Response: REFERRAL | NS: b'dns1.name-services.com.'
+[2025-10-27 02:20:49.442] Attempting to resolve NS: b'dns1.name-services.com.'
+[2025-10-27 02:20:50.216] Server: 198.41.0.4 | Step: Root | RTT: 0.7308s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:50.841] Server: 192.41.162.30 | Step: TLD | RTT: 0.4282s | Response: REFERRAL | NS: b'dns1.name-services.com.'
+[2025-10-27 02:20:51.382] Server: 64.98.148.137 | Step: Authoritative | RTT: 0.3548s | Response: ANSWER | IP: 64.98.148.137
+[2025-10-27 02:20:51.873] Attempting to resolve NS: b'dns2.name-services.com.'
+[2025-10-27 02:20:52.557] Server: 198.41.0.4 | Step: Root | RTT: 0.5349s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:53.454] Server: 192.41.162.30 | Step: TLD | RTT: 0.4057s | Response: REFERRAL | NS: b'dns1.name-services.com.'
+[2025-10-27 02:20:54.186] Server: 64.98.148.137 | Step: Authoritative | RTT: 0.3631s | Response: ANSWER | IP: 216.40.47.201
+[2025-10-27 02:20:54.627] Attempting to resolve NS: b'dns3.name-services.com.'
+[2025-10-27 02:20:55.198] Server: 198.41.0.4 | Step: Root | RTT: 0.5660s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:56.022] Server: 192.41.162.30 | Step: TLD | RTT: 0.4840s | Response: REFERRAL | NS: b'dns1.name-services.com.'
+[2025-10-27 02:20:57.238] Server: 64.98.148.137 | Step: Authoritative | RTT: 0.4033s | Response: ANSWER | IP: 64.98.148.138
+[2025-10-27 02:20:57.638] Attempting to resolve NS: b'dns4.name-services.com.'
+[2025-10-27 02:20:58.298] Server: 198.41.0.4 | Step: Root | RTT: 0.6586s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.793] Server: 192.41.162.30 | Step: TLD | RTT: 0.2711s | Response: REFERRAL | NS: b'dns1.name-services.com.'
+[2025-10-27 02:20:59.466] Server: 64.98.148.137 | Step: Authoritative | RTT: 0.4445s | Response: ANSWER | IP: 216.40.47.202
+[2025-10-27 02:20:59.776] Attempting to resolve NS: b'dns5.name-services.com.'
+[2025-10-27 02:21:00.091] Server: 198.41.0.4 | Step: Root | RTT: 0.3137s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.784] Server: 192.41.162.30 | Step: TLD | RTT: 0.4437s | Response: REFERRAL | NS: b'dns1.name-services.com.'
+[2025-10-27 02:21:01.919] Server: 64.98.148.137 | Step: Authoritative | RTT: 0.4228s | Response: ANSWER | IP: 64.98.148.139
+[2025-10-27 02:21:03.909] Server: 64.98.148.137 | Step: Authoritative | RTT: 0.4346s | Response: ANSWER | IP: 64.98.135.85
+[2025-10-27 02:21:04.436] Domain: itgeorgia.co. | Total Time: 16.3457s | Resolved IP: 64.98.135.85 | Total DNS Servers visited : 18
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.947] Domain: celerity.com. | Mode: Iterative
+[2025-10-27 02:21:03.808] Server: 198.41.0.4 | Step: Root | RTT: 0.4442s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.249] Server: 192.41.162.30 | Step: TLD | RTT: 0.2717s | Response: REFERRAL | NS: b'ns1.dnsmadeeasy.com.'
+[2025-10-27 02:21:04.947] Server: 208.80.124.2 | Step: Authoritative | RTT: 0.3110s | Response: ANSWER | IP: 35.188.214.201
+[2025-10-27 02:21:05.213] Domain: celerity.com. | Total Time: 2.2664s | Resolved IP: 35.188.214.201 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:55.599] Domain: b2b2c.ca. | Mode: Iterative
+[2025-10-27 02:20:56.546] Server: 198.41.0.4 | Step: Root | RTT: 0.3420s | Response: REFERRAL | NS: b'd.ca-servers.ca.'
+[2025-10-27 02:20:58.268] Server: 45.142.220.101 | Step: TLD | RTT: 0.6538s | Response: REFERRAL | NS: b'ns2.cidc.net.'
+[2025-10-27 02:20:58.561] Attempting to resolve NS: b'ns2.cidc.net.'
+[2025-10-27 02:20:58.891] Server: 198.41.0.4 | Step: Root | RTT: 0.3289s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:59.339] Server: 192.55.83.30 | Step: TLD | RTT: 0.2515s | Response: REFERRAL | NS: b'ns.cidc.net.'
+[2025-10-27 02:21:00.574] Server: 66.158.128.6 | Step: Authoritative | RTT: 0.4451s | Response: ANSWER | IP: 66.158.128.131
+[2025-10-27 02:21:00.713] Attempting to resolve NS: b'ns.cidc.net.'
+[2025-10-27 02:21:01.080] Server: 198.41.0.4 | Step: Root | RTT: 0.3555s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:03.216] Server: 192.55.83.30 | Step: TLD | RTT: 0.3302s | Response: REFERRAL | NS: b'ns.cidc.net.'
+[2025-10-27 02:21:04.507] Server: 66.158.128.6 | Step: Authoritative | RTT: 0.5855s | Response: ANSWER | IP: 66.158.128.6
+[2025-10-27 02:21:05.480] Server: 66.158.128.131 | Step: Authoritative | RTT: 0.5599s | Response: ANSWER | IP: 13.107.246.36
+[2025-10-27 02:21:05.920] Domain: b2b2c.ca. | Total Time: 10.3211s | Resolved IP: 13.107.246.36 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:04.500] Domain: xxx-muschis.de. | Mode: Iterative
+[2025-10-27 02:21:05.605] Server: 198.41.0.4 | Step: Root | RTT: 0.4013s | Response: REFERRAL | NS: b'a.nic.de.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:47.970] Domain: vinayaprabha.com. | Mode: Iterative
+[2025-10-27 02:20:48.434] Server: 198.41.0.4 | Step: Root | RTT: 0.4500s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:49.008] Server: 192.41.162.30 | Step: TLD | RTT: 0.3027s | Response: REFERRAL | NS: b'ns5.wixdns.net.'
+[2025-10-27 02:20:49.036] Attempting to resolve NS: b'ns5.wixdns.net.'
+[2025-10-27 02:20:49.614] Server: 198.41.0.4 | Step: Root | RTT: 0.2709s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:50.663] Server: 192.55.83.30 | Step: TLD | RTT: 0.2970s | Response: REFERRAL | NS: b'dns1.p02.nsone.net.'
+[2025-10-27 02:20:56.900] Server: 198.51.45.2 | Step: Authoritative | RTT: 5.6449s | Response: ANSWER | IP: 216.239.38.101
+[2025-10-27 02:20:57.460] Attempting to resolve NS: b'ns4.wixdns.net.'
+[2025-10-27 02:20:57.861] Server: 198.41.0.4 | Step: Root | RTT: 0.3576s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:58.839] Server: 192.55.83.30 | Step: TLD | RTT: 0.2806s | Response: REFERRAL | NS: b'dns1.p02.nsone.net.'
+[2025-10-27 02:21:04.210] Server: 198.51.45.2 | Step: Authoritative | RTT: 5.2486s | Response: ANSWER | IP: 216.239.36.101
+[2025-10-27 02:21:05.381] Server: 216.239.38.101 | Step: Authoritative | RTT: 0.2468s | Response: ANSWER | IP: 185.230.63.107
+[2025-10-27 02:21:05.701] Domain: vinayaprabha.com. | Total Time: 17.7308s | Resolved IP: 185.230.63.107 | Total DNS Servers visited : 11
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:04.157] Domain: gaplex.biz. | Mode: Iterative
+[2025-10-27 02:21:05.647] Server: 198.41.0.4 | Step: Root | RTT: 0.2399s | Response: REFERRAL | NS: b'b.gtld.biz.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:03.240] Domain: oberandsons.com. | Mode: Iterative
+[2025-10-27 02:21:04.234] Server: 198.41.0.4 | Step: Root | RTT: 0.3002s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.944] Server: 192.41.162.30 | Step: TLD | RTT: 0.2910s | Response: REFERRAL | NS: b'ns1.dreamhost.com.'
+[2025-10-27 02:21:06.208] Server: 162.159.26.14 | Step: Authoritative | RTT: 0.3856s | Response: ANSWER | IP: 34.128.166.114
+[2025-10-27 02:21:06.368] Domain: oberandsons.com. | Total Time: 3.1284s | Resolved IP: 34.128.166.114 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:04.723] Domain: divefishhouse.com. | Mode: Iterative
+[2025-10-27 02:21:06.205] Server: 198.41.0.4 | Step: Root | RTT: 0.3698s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.881] Domain: silkroadtours.com. | Mode: Iterative
+[2025-10-27 02:21:03.735] Server: 198.41.0.4 | Step: Root | RTT: 0.3924s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.208] Server: 192.41.162.30 | Step: TLD | RTT: 0.2623s | Response: REFERRAL | NS: b'ns19.domaincontrol.com.'
+[2025-10-27 02:21:04.950] Server: 97.74.109.10 | Step: Authoritative | RTT: 0.3231s | Response: ANSWER | IP: 23.236.62.147
+[2025-10-27 02:21:06.308] Domain: silkroadtours.com. | Total Time: 3.4269s | Resolved IP: 23.236.62.147 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.692] Domain: originalmagicart.com. | Mode: Iterative
+[2025-10-27 02:21:03.245] Server: 198.41.0.4 | Step: Root | RTT: 0.4763s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:03.839] Server: 192.41.162.30 | Step: TLD | RTT: 0.4253s | Response: REFERRAL | NS: b'ns31.domaincontrol.com.'
+[2025-10-27 02:21:06.213] Server: 97.74.105.16 | Step: Authoritative | RTT: 0.3951s | Response: ANSWER | IP: 15.197.225.128
+[2025-10-27 02:21:06.505] Domain: originalmagicart.com. | Total Time: 4.8135s | Resolved IP: 15.197.225.128 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.486] Domain: closerdiets.com. | Mode: Iterative
+[2025-10-27 02:21:02.113] Server: 198.41.0.4 | Step: Root | RTT: 0.3128s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:03.793] Server: 192.41.162.30 | Step: TLD | RTT: 0.4830s | Response: REFERRAL | NS: b'ns1.brandshelter.com.'
+[2025-10-27 02:21:04.361] Server: 193.227.117.9 | Step: Authoritative | RTT: 0.2872s | Response: ANSWER | IP: 5.22.145.16
+[2025-10-27 02:21:04.976] Domain: closerdiets.com. | Total Time: 3.4901s | Resolved IP: 5.22.145.16 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:03.640] Domain: miscellaneousheathen.com. | Mode: Iterative
+[2025-10-27 02:21:04.333] Server: 198.41.0.4 | Step: Root | RTT: 0.3911s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.478] Server: 192.41.162.30 | Step: TLD | RTT: 0.3889s | Response: REFERRAL | NS: b'ns1.linode.com.'
+[2025-10-27 02:21:06.079] Server: 92.123.94.2 | Step: Authoritative | RTT: 0.2355s | Response: ANSWER | IP: 75.127.72.229
+[2025-10-27 02:21:06.799] Domain: miscellaneousheathen.com. | Total Time: 3.1587s | Resolved IP: 75.127.72.229 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.259] Domain: ok-magazine.ru. | Mode: Iterative
+[2025-10-27 02:21:03.777] Server: 198.41.0.4 | Step: Root | RTT: 0.4295s | Response: REFERRAL | NS: b'a.dns.ripn.net.'
+[2025-10-27 02:21:04.886] Server: 193.232.128.6 | Step: TLD | RTT: 0.4727s | Response: REFERRAL | NS: b'ns8-cloud.nic.ru.'
+[2025-10-27 02:21:06.158] Server: 89.104.93.31 | Step: Authoritative | RTT: 0.3651s | Response: ANSWER | IP: 188.124.32.70
+[2025-10-27 02:21:06.665] Domain: ok-magazine.ru. | Total Time: 4.4056s | Resolved IP: 188.124.32.70 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:59.469] Domain: go2jump.com. | Mode: Iterative
+[2025-10-27 02:21:00.101] Server: 198.41.0.4 | Step: Root | RTT: 0.3396s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.570] Server: 192.41.162.30 | Step: TLD | RTT: 0.2590s | Response: REFERRAL | NS: b'ns1.siteground.net.'
+[2025-10-27 02:21:01.140] Attempting to resolve NS: b'ns1.siteground.net.'
+[2025-10-27 02:21:01.438] Server: 198.41.0.4 | Step: Root | RTT: 0.2968s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:02.190] Server: 192.55.83.30 | Step: TLD | RTT: 0.4032s | Response: REFERRAL | NS: b'ns1.siteground.net.'
+[2025-10-27 02:21:03.043] Server: 75.2.77.104 | Step: Authoritative | RTT: 0.2519s | Response: ANSWER | IP: 75.2.77.104
+[2025-10-27 02:21:03.386] Attempting to resolve NS: b'ns2.siteground.net.'
+[2025-10-27 02:21:03.753] Server: 198.41.0.4 | Step: Root | RTT: 0.3648s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:04.278] Server: 192.55.83.30 | Step: TLD | RTT: 0.3125s | Response: REFERRAL | NS: b'ns1.siteground.net.'
+[2025-10-27 02:21:04.851] Server: 75.2.77.104 | Step: Authoritative | RTT: 0.3408s | Response: ANSWER | IP: 99.83.229.113
+[2025-10-27 02:21:05.225] Server: 75.2.77.104 | Step: Authoritative | RTT: 0.1672s | Response: ANSWER | IP: 34.175.54.178
+[2025-10-27 02:21:05.668] Domain: go2jump.com. | Total Time: 6.1990s | Resolved IP: 34.175.54.178 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.737] Domain: rositehost.com. | Mode: Iterative
+[2025-10-27 02:21:04.270] Server: 198.41.0.4 | Step: Root | RTT: 0.3988s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.323] Server: 192.41.162.30 | Step: TLD | RTT: 0.2821s | Response: REFERRAL | NS: b'ns2.rositehost.com.'
+[2025-10-27 02:21:06.279] Server: 178.157.78.3 | Step: Authoritative | RTT: 0.5822s | Response: ANSWER | IP: 178.157.78.2
+[2025-10-27 02:21:06.541] Domain: rositehost.com. | Total Time: 3.8034s | Resolved IP: 178.157.78.2 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:03.045] Domain: livescan4all.com. | Mode: Iterative
+[2025-10-27 02:21:04.348] Server: 198.41.0.4 | Step: Root | RTT: 0.3259s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:06.170] Server: 192.41.162.30 | Step: TLD | RTT: 0.3705s | Response: REFERRAL | NS: b'ns1.mydomain.com.'
+[2025-10-27 02:21:06.691] Server: 172.64.52.99 | Step: Authoritative | RTT: 0.3314s | Response: ANSWER | IP: 149.20.203.54
+[2025-10-27 02:21:07.081] Domain: livescan4all.com. | Total Time: 4.0364s | Resolved IP: 149.20.203.54 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:57.376] Domain: deine-bahn.de. | Mode: Iterative
+[2025-10-27 02:20:58.282] Server: 198.41.0.4 | Step: Root | RTT: 0.6998s | Response: REFERRAL | NS: b'a.nic.de.'
+[2025-10-27 02:20:58.696] Server: 194.0.0.53 | Step: TLD | RTT: 0.2738s | Response: REFERRAL | NS: b'ns81.domaincontrol.com.'
+[2025-10-27 02:20:59.010] Attempting to resolve NS: b'ns81.domaincontrol.com.'
+[2025-10-27 02:20:59.268] Server: 198.41.0.4 | Step: Root | RTT: 0.2554s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.051] Server: 192.41.162.30 | Step: TLD | RTT: 0.2690s | Response: REFERRAL | NS: b'ans01.domaincontrol.com.'
+[2025-10-27 02:21:00.646] Server: 97.74.97.35 | Step: Authoritative | RTT: 0.3258s | Response: ANSWER | IP: 97.74.101.32
+[2025-10-27 02:21:01.188] Attempting to resolve NS: b'ns82.domaincontrol.com.'
+[2025-10-27 02:21:02.420] Server: 198.41.0.4 | Step: Root | RTT: 0.6043s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.307] Server: 192.41.162.30 | Step: TLD | RTT: 0.3176s | Response: REFERRAL | NS: b'ans01.domaincontrol.com.'
+[2025-10-27 02:21:05.572] Server: 97.74.97.35 | Step: Authoritative | RTT: 0.4969s | Response: ANSWER | IP: 173.201.69.32
+[2025-10-27 02:21:06.564] Server: 97.74.101.32 | Step: Authoritative | RTT: 0.2614s | Response: ANSWER | IP: 92.204.239.74
+[2025-10-27 02:21:06.903] Domain: deine-bahn.de. | Total Time: 9.5267s | Resolved IP: 92.204.239.74 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.642] Domain: greens.my. | Mode: Iterative
+[2025-10-27 02:20:59.652] Server: 198.41.0.4 | Step: Root | RTT: 0.2247s | Response: REFERRAL | NS: b'ns01.trs-dns.com.'
+[2025-10-27 02:21:00.541] Server: 64.96.1.1 | Step: TLD | RTT: 0.1941s | Response: REFERRAL | NS: b'matt.ns.cloudflare.com.'
+[2025-10-27 02:21:00.698] Attempting to resolve NS: b'matt.ns.cloudflare.com.'
+[2025-10-27 02:21:01.046] Server: 198.41.0.4 | Step: Root | RTT: 0.3399s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:01.570] Server: 192.41.162.30 | Step: TLD | RTT: 0.3627s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:02.580] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.3230s | Response: ANSWER | IP: 108.162.193.131
+[2025-10-27 02:21:03.323] Attempting to resolve NS: b'sue.ns.cloudflare.com.'
+[2025-10-27 02:21:03.820] Server: 198.41.0.4 | Step: Root | RTT: 0.4820s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.563] Server: 192.41.162.30 | Step: TLD | RTT: 0.5524s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:06.072] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.3289s | Response: ANSWER | IP: 173.245.58.145
+[2025-10-27 02:21:06.486] Server: 108.162.193.131 | Step: Authoritative | RTT: 0.1490s | Response: ANSWER | IP: 172.67.132.13
+[2025-10-27 02:21:06.831] Domain: greens.my. | Total Time: 8.1892s | Resolved IP: 172.67.132.13 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.296] Domain: oneworldinfo.com. | Mode: Iterative
+[2025-10-27 02:21:02.372] Server: 198.41.0.4 | Step: Root | RTT: 0.3796s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.354] Server: 192.41.162.30 | Step: TLD | RTT: 0.4936s | Response: REFERRAL | NS: b'nsg1.namebrightdns.com.'
+[2025-10-27 02:21:06.299] Server: 18.206.201.136 | Step: Authoritative | RTT: 0.3895s | Response: ANSWER | IP: 54.243.117.197
+[2025-10-27 02:21:06.889] Domain: oneworldinfo.com. | Total Time: 5.5928s | Resolved IP: 54.243.117.197 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:03.842] Domain: rolflouisville.com. | Mode: Iterative
+[2025-10-27 02:21:04.390] Server: 198.41.0.4 | Step: Root | RTT: 0.3534s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.432] Server: 192.41.162.30 | Step: TLD | RTT: 0.3240s | Response: REFERRAL | NS: b'nsa.powerdnn.com.'
+[2025-10-27 02:21:06.218] Server: 172.64.52.106 | Step: Authoritative | RTT: 0.4960s | Response: ANSWER | IP: 208.88.75.191
+[2025-10-27 02:21:06.394] Domain: rolflouisville.com. | Total Time: 2.5520s | Resolved IP: 208.88.75.191 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:04.923] Domain: florenseusa.com. | Mode: Iterative
+[2025-10-27 02:21:05.507] Server: 198.41.0.4 | Step: Root | RTT: 0.3269s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:06.068] Server: 192.41.162.30 | Step: TLD | RTT: 0.3333s | Response: REFERRAL | NS: b'ns33.domaincontrol.com.'
+[2025-10-27 02:21:06.697] Server: 97.74.106.17 | Step: Authoritative | RTT: 0.2512s | Response: ANSWER | IP: 34.95.203.179
+[2025-10-27 02:21:06.865] Domain: florenseusa.com. | Total Time: 1.9415s | Resolved IP: 34.95.203.179 | Total DNS Servers visited : 3
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.455] Domain: capequilog.com. | Mode: Iterative
+[2025-10-27 02:20:59.230] Server: 198.41.0.4 | Step: Root | RTT: 0.2807s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.590] Server: 192.41.162.30 | Step: TLD | RTT: 0.3128s | Response: REFERRAL | NS: b'ns.bos1.gridfury.net.'
+[2025-10-27 02:21:00.730] Attempting to resolve NS: b'ns.bos1.gridfury.net.'
+[2025-10-27 02:21:01.115] Server: 198.41.0.4 | Step: Root | RTT: 0.3836s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:02.588] Server: 192.55.83.30 | Step: TLD | RTT: 0.3204s | Response: REFERRAL | NS: b'ns.bos1.gridfury.net.'
+[2025-10-27 02:21:04.359] Server: 204.13.89.3 | Step: Authoritative | RTT: 0.4833s | Response: ANSWER | IP: 204.13.89.3
+[2025-10-27 02:21:05.102] Attempting to resolve NS: b'ns.nyc1.gridfury.net.'
+[2025-10-27 02:21:05.596] Server: 198.41.0.4 | Step: Root | RTT: 0.4907s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:06.163] Server: 192.55.83.30 | Step: TLD | RTT: 0.3095s | Response: REFERRAL | NS: b'ns.bos1.gridfury.net.'
+[2025-10-27 02:21:06.869] Server: 204.13.89.3 | Step: Authoritative | RTT: 0.3975s | Response: ANSWER | IP: 204.13.88.3
+[2025-10-27 02:21:07.598] Server: 204.13.89.3 | Step: Authoritative | RTT: 0.3915s | Response: ANSWER | IP: 208.94.116.26
+[2025-10-27 02:21:07.759] Domain: capequilog.com. | Total Time: 9.3040s | Resolved IP: 208.94.116.26 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:54.904] Domain: koopsmodellbau.de. | Mode: Iterative
+[2025-10-27 02:20:55.630] Server: 198.41.0.4 | Step: Root | RTT: 0.2559s | Response: REFERRAL | NS: b'a.nic.de.'
+[2025-10-27 02:20:56.576] Server: 194.0.0.53 | Step: TLD | RTT: 0.3931s | Response: REFERRAL | NS: b'webde.ui-dns.de.'
+[2025-10-27 02:20:57.717] Attempting to resolve NS: b'webde.ui-dns.de.'
+[2025-10-27 02:20:58.283] Server: 198.41.0.4 | Step: Root | RTT: 0.5650s | Response: REFERRAL | NS: b'a.nic.de.'
+[2025-10-27 02:20:58.916] Server: 194.0.0.53 | Step: TLD | RTT: 0.3685s | Response: REFERRAL | NS: b'ns-de.ui-dns.org.'
+[2025-10-27 02:20:59.418] Server: 185.132.32.193 | Step: Authoritative | RTT: 0.3444s | Response: ANSWER | IP: 217.160.80.238
+[2025-10-27 02:21:00.135] Attempting to resolve NS: b'webde.ui-dns.com.'
+[2025-10-27 02:21:00.537] Server: 198.41.0.4 | Step: Root | RTT: 0.3986s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.988] Server: 192.41.162.30 | Step: TLD | RTT: 0.2994s | Response: REFERRAL | NS: b'ns-com.ui-dns.com.'
+[2025-10-27 02:21:01.831] Server: 185.132.34.214 | Step: Authoritative | RTT: 0.2971s | Response: ANSWER | IP: 185.132.34.238
+[2025-10-27 02:21:02.889] Attempting to resolve NS: b'webde.ui-dns.biz.'
+[2025-10-27 02:21:03.213] Server: 198.41.0.4 | Step: Root | RTT: 0.2884s | Response: REFERRAL | NS: b'b.gtld.biz.'
+[2025-10-27 02:21:04.861] Server: 156.154.125.65 | Step: TLD | RTT: 0.2816s | Response: REFERRAL | NS: b'ns-biz.ui-dns.biz.'
+[2025-10-27 02:21:05.467] Server: 185.132.33.195 | Step: Authoritative | RTT: 0.2970s | Response: ANSWER | IP: 217.160.81.238
+[2025-10-27 02:21:05.726] Attempting to resolve NS: b'webde.ui-dns.org.'
+[2025-10-27 02:21:06.264] Server: 198.41.0.4 | Step: Root | RTT: 0.5313s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:07.152] Server: 199.249.112.1 | Step: TLD | RTT: 0.2228s | Response: REFERRAL | NS: b'ns-org.ui-dns.de.'
+[2025-10-27 02:21:07.571] Server: 185.132.34.194 | Step: Authoritative | RTT: 0.2303s | Response: ANSWER | IP: 185.132.35.238
+[2025-10-27 02:21:07.966] Server: 217.160.80.238 | Step: Authoritative | RTT: 0.3488s | Response: ANSWER | IP: 217.160.0.247
+[2025-10-27 02:21:08.049] Domain: koopsmodellbau.de. | Total Time: 13.1445s | Resolved IP: 217.160.0.247 | Total DNS Servers visited : 15
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:00.858] Domain: supportpabiomass.org. | Mode: Iterative
+[2025-10-27 02:21:01.942] Server: 198.41.0.4 | Step: Root | RTT: 0.2465s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:02.860] Server: 199.249.112.1 | Step: TLD | RTT: 0.1938s | Response: REFERRAL | NS: b'ns6.plothost.com.'
+[2025-10-27 02:21:03.880] Attempting to resolve NS: b'ns6.plothost.com.'
+[2025-10-27 02:21:04.413] Server: 198.41.0.4 | Step: Root | RTT: 0.5203s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.302] Server: 192.41.162.30 | Step: TLD | RTT: 0.2854s | Response: REFERRAL | NS: b'jay.ns.cloudflare.com.'
+[2025-10-27 02:21:06.307] Server: 108.162.193.123 | Step: Authoritative | RTT: 0.4782s | Response: ANSWER | IP: 162.248.51.165
+[2025-10-27 02:21:07.155] Attempting to resolve NS: b'ns5.plothost.com.'
+[2025-10-27 02:21:07.483] Server: 198.41.0.4 | Step: Root | RTT: 0.3075s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:07.881] Server: 192.41.162.30 | Step: TLD | RTT: 0.3177s | Response: REFERRAL | NS: b'jay.ns.cloudflare.com.'
+[2025-10-27 02:21:08.126] Server: 108.162.193.123 | Step: Authoritative | RTT: 0.1322s | Response: ANSWER | IP: 162.248.51.100
+[2025-10-27 02:21:08.595] Server: 162.248.51.165 | Step: Authoritative | RTT: 0.4155s | Response: ANSWER | IP: 162.248.51.100
+[2025-10-27 02:21:08.675] Domain: supportpabiomass.org. | Total Time: 7.8164s | Resolved IP: 162.248.51.100 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.977] Domain: pces.in. | Mode: Iterative
+[2025-10-27 02:21:03.713] Server: 198.41.0.4 | Step: Root | RTT: 0.4068s | Response: REFERRAL | NS: b'ns10.trs-dns.org.'
+[2025-10-27 02:21:04.240] Server: 64.78.205.1 | Step: TLD | RTT: 0.1802s | Response: REFERRAL | NS: b'ns1.dns-parking.com.'
+[2025-10-27 02:21:05.142] Attempting to resolve NS: b'ns1.dns-parking.com.'
+[2025-10-27 02:21:05.620] Server: 198.41.0.4 | Step: Root | RTT: 0.4639s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:07.038] Server: 192.41.162.30 | Step: TLD | RTT: 0.3087s | Response: REFERRAL | NS: b'ns1.dns-parking.com.'
+[2025-10-27 02:21:07.399] Server: 162.159.24.201 | Step: Authoritative | RTT: 0.1207s | Response: ANSWER | IP: 162.159.24.201
+[2025-10-27 02:21:07.529] Attempting to resolve NS: b'ns2.dns-parking.com.'
+[2025-10-27 02:21:07.964] Server: 198.41.0.4 | Step: Root | RTT: 0.4239s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:08.331] Server: 192.41.162.30 | Step: TLD | RTT: 0.3162s | Response: REFERRAL | NS: b'ns1.dns-parking.com.'
+[2025-10-27 02:21:08.589] Server: 162.159.24.201 | Step: Authoritative | RTT: 0.1404s | Response: ANSWER | IP: 162.159.25.42
+[2025-10-27 02:21:08.742] Server: 162.159.24.201 | Step: Authoritative | RTT: 0.1426s | Response: ANSWER | IP: 195.35.44.242
+[2025-10-27 02:21:08.806] Domain: pces.in. | Total Time: 6.8279s | Resolved IP: 195.35.44.242 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.193] Domain: ugotrelis.com. | Mode: Iterative
+[2025-10-27 02:21:02.709] Server: 198.41.0.4 | Step: Root | RTT: 0.2512s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:03.706] Server: 192.41.162.30 | Step: TLD | RTT: 0.2994s | Response: REFERRAL | NS: b'dns107.ovh.net.'
+[2025-10-27 02:21:05.118] Attempting to resolve NS: b'dns107.ovh.net.'
+[2025-10-27 02:21:05.634] Server: 198.41.0.4 | Step: Root | RTT: 0.5088s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:07.139] Server: 192.55.83.30 | Step: TLD | RTT: 0.3551s | Response: REFERRAL | NS: b'ns10.ovh.net.'
+[2025-10-27 02:21:07.536] Server: 5.39.20.253 | Step: Authoritative | RTT: 0.2469s | Response: ANSWER | IP: 5.196.41.137
+[2025-10-27 02:21:07.633] Attempting to resolve NS: b'ns107.ovh.net.'
+[2025-10-27 02:21:07.932] Server: 198.41.0.4 | Step: Root | RTT: 0.2967s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:08.394] Server: 192.55.83.30 | Step: TLD | RTT: 0.2626s | Response: REFERRAL | NS: b'ns10.ovh.net.'
+[2025-10-27 02:21:08.724] Server: 5.39.20.253 | Step: Authoritative | RTT: 0.2858s | Response: ANSWER | IP: 5.135.65.209
+[2025-10-27 02:21:09.133] Server: 5.196.41.137 | Step: Authoritative | RTT: 0.2181s | Response: ANSWER | IP: 213.186.33.82
+[2025-10-27 02:21:09.134] Domain: ugotrelis.com. | Total Time: 6.9413s | Resolved IP: 213.186.33.82 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.153] Domain: godo.co.kr. | Mode: Iterative
+[2025-10-27 02:21:02.735] Server: 198.41.0.4 | Step: Root | RTT: 0.2843s | Response: REFERRAL | NS: b'c.dns.kr.'
+[2025-10-27 02:21:04.449] Server: 210.101.61.1 | Step: TLD | RTT: 0.4538s | Response: REFERRAL | NS: b'ns2.hostbell.com.'
+[2025-10-27 02:21:05.024] Attempting to resolve NS: b'ns2.hostbell.com.'
+[2025-10-27 02:21:05.399] Server: 198.41.0.4 | Step: Root | RTT: 0.3728s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:07.441] Server: 192.41.162.30 | Step: TLD | RTT: 0.2491s | Response: REFERRAL | NS: b'ns1.hostbell.com.'
+[2025-10-27 02:21:07.948] Server: 180.210.127.113 | Step: Authoritative | RTT: 0.3178s | Response: ANSWER | IP: 211.233.51.3
+[2025-10-27 02:21:08.033] Attempting to resolve NS: b'ns1.hostbell.com.'
+[2025-10-27 02:21:08.355] Server: 198.41.0.4 | Step: Root | RTT: 0.3210s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:08.773] Server: 192.41.162.30 | Step: TLD | RTT: 0.3433s | Response: REFERRAL | NS: b'ns1.hostbell.com.'
+[2025-10-27 02:21:09.175] Server: 180.210.127.113 | Step: Authoritative | RTT: 0.2662s | Response: ANSWER | IP: 211.233.50.3
+[2025-10-27 02:21:09.565] Server: 211.233.51.3 | Step: Authoritative | RTT: 0.3227s | Response: ANSWER | IP: 180.210.81.80
+[2025-10-27 02:21:09.572] Domain: godo.co.kr. | Total Time: 7.4196s | Resolved IP: 180.210.81.80 | Total DNS Servers visited : 9
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:59.232] Domain: solcredito.es. | Mode: Iterative
+[2025-10-27 02:20:59.983] Server: 198.41.0.4 | Step: Root | RTT: 0.3580s | Response: REFERRAL | NS: b'a.nic.es.'
+[2025-10-27 02:21:00.498] Server: 194.69.254.1 | Step: TLD | RTT: 0.3342s | Response: REFERRAL | NS: b'ns-939.awsdns-53.net.'
+[2025-10-27 02:21:00.687] Attempting to resolve NS: b'ns-939.awsdns-53.net.'
+[2025-10-27 02:21:01.350] Server: 198.41.0.4 | Step: Root | RTT: 0.3576s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:02.247] Server: 192.55.83.30 | Step: TLD | RTT: 0.2478s | Response: REFERRAL | NS: b'g-ns-502.awsdns-53.net.'
+[2025-10-27 02:21:04.315] Server: 205.251.193.246 | Step: Authoritative | RTT: 0.2982s | Response: ANSWER | IP: 205.251.195.171
+[2025-10-27 02:21:04.959] Attempting to resolve NS: b'ns-190.awsdns-23.com.'
+[2025-10-27 02:21:05.585] Server: 198.41.0.4 | Step: Root | RTT: 0.6139s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:06.103] Server: 192.41.162.30 | Step: TLD | RTT: 0.3367s | Response: REFERRAL | NS: b'g-ns-24.awsdns-23.com.'
+[2025-10-27 02:21:06.621] Server: 205.251.192.24 | Step: Authoritative | RTT: 0.1689s | Response: ANSWER | IP: 205.251.192.190
+[2025-10-27 02:21:07.280] Attempting to resolve NS: b'ns-1555.awsdns-02.co.uk.'
+[2025-10-27 02:21:07.497] Server: 198.41.0.4 | Step: Root | RTT: 0.2164s | Response: REFERRAL | NS: b'dns1.nic.uk.'
+[2025-10-27 02:21:08.195] Server: 213.248.216.1 | Step: TLD | RTT: 0.2192s | Response: REFERRAL | NS: b'g-ns-322.awsdns-02.co.uk.'
+[2025-10-27 02:21:08.402] Server: 205.251.193.66 | Step: Authoritative | RTT: 0.1294s | Response: ANSWER | IP: 205.251.198.19
+[2025-10-27 02:21:08.507] Attempting to resolve NS: b'ns-1521.awsdns-62.org.'
+[2025-10-27 02:21:08.856] Server: 198.41.0.4 | Step: Root | RTT: 0.3478s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:09.264] Server: 199.249.112.1 | Step: TLD | RTT: 0.2017s | Response: REFERRAL | NS: b'g-ns-1662.awsdns-62.org.'
+[2025-10-27 02:21:09.455] Server: 205.251.192.190 | Step: Authoritative | RTT: 0.0991s | Response: ANSWER | IP: 205.251.197.241
+[2025-10-27 02:21:09.600] Server: 205.251.195.171 | Step: Authoritative | RTT: 0.0738s | Response: ANSWER | IP: 18.239.153.86
+[2025-10-27 02:21:09.608] Domain: solcredito.es. | Total Time: 10.3761s | Resolved IP: 18.239.153.86 | Total DNS Servers visited : 15
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:02.556] Domain: dmg-dental.com. | Mode: Iterative
+[2025-10-27 02:21:03.282] Server: 198.41.0.4 | Step: Root | RTT: 0.2837s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.123] Server: 192.41.162.30 | Step: TLD | RTT: 0.3247s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:21:04.603] Attempting to resolve NS: b'ns.udag.de.'
+[2025-10-27 02:21:04.916] Server: 198.41.0.4 | Step: Root | RTT: 0.3065s | Response: REFERRAL | NS: b'a.nic.de.'
+[2025-10-27 02:21:05.655] Server: 194.0.0.53 | Step: TLD | RTT: 0.5742s | Response: REFERRAL | NS: b'ns.udag.net.'
+[2025-10-27 02:21:06.719] Server: 217.160.80.253 | Step: Authoritative | RTT: 0.2878s | Response: ANSWER | IP: 217.160.80.253
+[2025-10-27 02:21:06.933] Attempting to resolve NS: b'ns.udag.net.'
+[2025-10-27 02:21:07.239] Server: 198.41.0.4 | Step: Root | RTT: 0.3047s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:07.753] Server: 192.55.83.30 | Step: TLD | RTT: 0.1954s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:21:08.327] Server: 185.132.33.253 | Step: Authoritative | RTT: 0.3254s | Response: ANSWER | IP: 185.132.33.253
+[2025-10-27 02:21:08.441] Attempting to resolve NS: b'ns.udag.org.'
+[2025-10-27 02:21:08.740] Server: 198.41.0.4 | Step: Root | RTT: 0.2967s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:09.156] Server: 199.249.112.1 | Step: TLD | RTT: 0.2351s | Response: REFERRAL | NS: b'ns.udag.de.'
+[2025-10-27 02:21:09.488] Server: 185.132.34.253 | Step: Authoritative | RTT: 0.2746s | Response: ANSWER | IP: 185.132.34.253
+[2025-10-27 02:21:09.773] Server: 217.160.80.253 | Step: Authoritative | RTT: 0.2514s | Response: ANSWER | IP: 49.13.234.53
+[2025-10-27 02:21:09.829] Domain: dmg-dental.com. | Total Time: 7.2725s | Resolved IP: 49.13.234.53 | Total DNS Servers visited : 12
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.064] Domain: hackthissite.org. | Mode: Iterative
+[2025-10-27 02:20:58.883] Server: 198.41.0.4 | Step: Root | RTT: 0.3595s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:20:59.501] Server: 199.249.112.1 | Step: TLD | RTT: 0.4440s | Response: REFERRAL | NS: b'c.ns.buddyns.com.'
+[2025-10-27 02:21:00.472] Attempting to resolve NS: b'c.ns.buddyns.com.'
+[2025-10-27 02:21:00.997] Server: 198.41.0.4 | Step: Root | RTT: 0.4304s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:01.480] Server: 192.41.162.30 | Step: TLD | RTT: 0.2832s | Response: REFERRAL | NS: b'f.ns.buddyns.com.'
+[2025-10-27 02:21:02.558] Server: 5.223.55.119 | Step: Authoritative | RTT: 0.1558s | Response: ANSWER | IP: 116.203.6.3
+[2025-10-27 02:21:03.354] Attempting to resolve NS: b'f.ns.buddyns.com.'
+[2025-10-27 02:21:03.663] Server: 198.41.0.4 | Step: Root | RTT: 0.3063s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:04.204] Server: 192.41.162.30 | Step: TLD | RTT: 0.2666s | Response: REFERRAL | NS: b'f.ns.buddyns.com.'
+[2025-10-27 02:21:04.849] Server: 5.223.55.119 | Step: Authoritative | RTT: 0.2340s | Response: ANSWER | IP: 5.223.55.119
+[2025-10-27 02:21:05.655] Attempting to resolve NS: b'g.ns.buddyns.com.'
+[2025-10-27 02:21:05.997] Server: 198.41.0.4 | Step: Root | RTT: 0.3393s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:06.981] Server: 192.41.162.30 | Step: TLD | RTT: 0.3684s | Response: REFERRAL | NS: b'f.ns.buddyns.com.'
+[2025-10-27 02:21:07.538] Server: 5.223.55.119 | Step: Authoritative | RTT: 0.2281s | Response: ANSWER | IP: 192.184.93.99
+[2025-10-27 02:21:07.621] Attempting to resolve NS: b'h.ns.buddyns.com.'
+[2025-10-27 02:21:07.863] Server: 198.41.0.4 | Step: Root | RTT: 0.2399s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:08.320] Server: 192.41.162.30 | Step: TLD | RTT: 0.2796s | Response: REFERRAL | NS: b'f.ns.buddyns.com.'
+[2025-10-27 02:21:08.716] Server: 5.223.55.119 | Step: Authoritative | RTT: 0.2529s | Response: ANSWER | IP: 103.25.56.55
+[2025-10-27 02:21:09.071] Attempting to resolve NS: b'j.ns.buddyns.com.'
+[2025-10-27 02:21:09.355] Server: 198.41.0.4 | Step: Root | RTT: 0.2822s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:09.799] Server: 192.41.162.30 | Step: TLD | RTT: 0.3835s | Response: REFERRAL | NS: b'f.ns.buddyns.com.'
+[2025-10-27 02:21:10.010] Server: 5.223.55.119 | Step: Authoritative | RTT: 0.1661s | Response: ANSWER | IP: 37.143.61.179
+[2025-10-27 02:21:10.282] Server: 116.203.6.3 | Step: Authoritative | RTT: 0.2444s | Response: ANSWER | IP: 137.74.187.100
+[2025-10-27 02:21:10.322] Domain: hackthissite.org. | Total Time: 12.2576s | Resolved IP: 137.74.187.100 | Total DNS Servers visited : 18
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:58.990] Domain: magic-illusion.ru. | Mode: Iterative
+[2025-10-27 02:20:59.795] Server: 198.41.0.4 | Step: Root | RTT: 0.2306s | Response: REFERRAL | NS: b'a.dns.ripn.net.'
+[2025-10-27 02:21:00.757] Server: 193.232.128.6 | Step: TLD | RTT: 0.5305s | Response: REFERRAL | NS: b'vicente.ns.cloudflare.com.'
+[2025-10-27 02:21:01.191] Attempting to resolve NS: b'vicente.ns.cloudflare.com.'
+[2025-10-27 02:21:01.466] Server: 198.41.0.4 | Step: Root | RTT: 0.2728s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:02.165] Server: 192.41.162.30 | Step: TLD | RTT: 0.3288s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:08.950] Server: 162.159.7.226 | Step: Authoritative | RTT: 5.5128s | Response: ANSWER | IP: 162.159.44.239
+[2025-10-27 02:21:09.008] Attempting to resolve NS: b'kara.ns.cloudflare.com.'
+[2025-10-27 02:21:09.387] Server: 198.41.0.4 | Step: Root | RTT: 0.3620s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:09.809] Server: 192.41.162.30 | Step: TLD | RTT: 0.3527s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:09.975] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1075s | Response: ANSWER | IP: 173.245.58.123
+[2025-10-27 02:21:10.292] Server: 162.159.44.239 | Step: Authoritative | RTT: 0.3062s | Response: ANSWER | IP: 172.67.132.25
+[2025-10-27 02:21:10.294] Domain: magic-illusion.ru. | Total Time: 11.3038s | Resolved IP: 172.67.132.25 | Total DNS Servers visited : 10
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:47.955] Domain: sapendolo.it. | Mode: Iterative
+[2025-10-27 02:20:48.553] Server: 198.41.0.4 | Step: Root | RTT: 0.5921s | Response: REFERRAL | NS: b'a.dns.it.'
+[2025-10-27 02:20:49.210] Server: 194.0.16.215 | Step: TLD | RTT: 0.2579s | Response: REFERRAL | NS: b'ns1.match.it.'
+[2025-10-27 02:20:49.349] Attempting to resolve NS: b'ns1.match.it.'
+[2025-10-27 02:20:49.631] Server: 198.41.0.4 | Step: Root | RTT: 0.2811s | Response: REFERRAL | NS: b'a.dns.it.'
+[2025-10-27 02:20:50.549] Server: 194.0.16.215 | Step: TLD | RTT: 0.3104s | Response: REFERRAL | NS: b'pns63.cloudns.net.'
+[2025-10-27 02:20:50.978] Attempting to resolve NS: b'pns63.cloudns.net.'
+[2025-10-27 02:20:51.479] Server: 198.41.0.4 | Step: Root | RTT: 0.4959s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:52.833] Server: 192.55.83.30 | Step: TLD | RTT: 0.5232s | Response: REFERRAL | NS: b'ns2.cloudns.net.'
+[2025-10-27 02:20:53.714] Server: 5.161.86.199 | Step: Authoritative | RTT: 0.4163s | Response: ANSWER | IP: 45.83.250.16
+[2025-10-27 02:20:54.582] Attempting to resolve NS: b'pns64.cloudns.uk.'
+[2025-10-27 02:20:55.098] Server: 198.41.0.4 | Step: Root | RTT: 0.5136s | Response: REFERRAL | NS: b'dns1.nic.uk.'
+[2025-10-27 02:20:56.003] Server: 213.248.216.1 | Step: TLD | RTT: 0.5034s | Response: REFERRAL | NS: b'ns2.cloudns.com.'
+[2025-10-27 02:20:57.355] Server: 45.83.251.16 | Step: Authoritative | RTT: 0.5290s | Response: ANSWER | IP: 45.83.251.16
+[2025-10-27 02:20:57.648] Attempting to resolve NS: b'pns61.cloudns.net.'
+[2025-10-27 02:20:58.135] Server: 198.41.0.4 | Step: Root | RTT: 0.4846s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:58.819] Server: 192.55.83.30 | Step: TLD | RTT: 0.4314s | Response: REFERRAL | NS: b'ns2.cloudns.net.'
+[2025-10-27 02:20:59.463] Server: 5.161.86.199 | Step: Authoritative | RTT: 0.4102s | Response: ANSWER | IP: 45.83.248.16
+[2025-10-27 02:20:59.676] Attempting to resolve NS: b'pns62.cloudns.com.'
+[2025-10-27 02:20:59.956] Server: 198.41.0.4 | Step: Root | RTT: 0.2672s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.566] Server: 192.41.162.30 | Step: TLD | RTT: 0.3936s | Response: REFERRAL | NS: b'pns1.cloudns.net.'
+[2025-10-27 02:21:01.091] Server: 185.136.97.111 | Step: Authoritative | RTT: 0.2221s | Response: ANSWER | IP: 45.83.249.16
+[2025-10-27 02:21:01.467] Attempting to resolve NS: b'ns2.match.it.'
+[2025-10-27 02:21:02.998] Server: 198.41.0.4 | Step: Root | RTT: 0.3992s | Response: REFERRAL | NS: b'a.dns.it.'
+[2025-10-27 02:21:03.824] Server: 194.0.16.215 | Step: TLD | RTT: 0.3188s | Response: REFERRAL | NS: b'pns62.cloudns.com.'
+[2025-10-27 02:21:03.982] Attempting to resolve NS: b'pns62.cloudns.com.'
+[2025-10-27 02:21:04.293] Server: 198.41.0.4 | Step: Root | RTT: 0.3091s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.191] Server: 192.41.162.30 | Step: TLD | RTT: 0.2402s | Response: REFERRAL | NS: b'pns1.cloudns.net.'
+[2025-10-27 02:21:05.866] Server: 185.136.97.111 | Step: Authoritative | RTT: 0.2026s | Response: ANSWER | IP: 45.83.249.16
+[2025-10-27 02:21:06.326] Attempting to resolve NS: b'pns61.cloudns.net.'
+[2025-10-27 02:21:06.729] Server: 198.41.0.4 | Step: Root | RTT: 0.3993s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:07.471] Server: 192.55.83.30 | Step: TLD | RTT: 0.2731s | Response: REFERRAL | NS: b'ns2.cloudns.net.'
+[2025-10-27 02:21:08.107] Server: 5.161.86.199 | Step: Authoritative | RTT: 0.4527s | Response: ANSWER | IP: 45.83.248.16
+[2025-10-27 02:21:08.277] Attempting to resolve NS: b'pns64.cloudns.uk.'
+[2025-10-27 02:21:08.572] Server: 198.41.0.4 | Step: Root | RTT: 0.2942s | Response: REFERRAL | NS: b'dns1.nic.uk.'
+[2025-10-27 02:21:08.841] Server: 213.248.216.1 | Step: TLD | RTT: 0.2448s | Response: REFERRAL | NS: b'ns2.cloudns.com.'
+[2025-10-27 02:21:09.201] Server: 45.83.251.16 | Step: Authoritative | RTT: 0.1451s | Response: ANSWER | IP: 45.83.251.16
+[2025-10-27 02:21:09.209] Attempting to resolve NS: b'pns63.cloudns.net.'
+[2025-10-27 02:21:09.446] Server: 198.41.0.4 | Step: Root | RTT: 0.2140s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:09.712] Server: 192.55.83.30 | Step: TLD | RTT: 0.2328s | Response: REFERRAL | NS: b'ns2.cloudns.net.'
+[2025-10-27 02:21:10.294] Server: 5.161.86.199 | Step: Authoritative | RTT: 0.4323s | Response: ANSWER | IP: 45.83.250.16
+[2025-10-27 02:21:10.474] Failed to resolve any NS records
+[2025-10-27 02:21:10.479] Domain: sapendolo.it. | Total Time: 22.5241s | Status: FAILED (NS Resolution)
+FAILURE IN RESOLUTION
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:48.052] Domain: sitiweb.us. | Mode: Iterative
+[2025-10-27 02:20:48.486] Server: 198.41.0.4 | Step: Root | RTT: 0.4223s | Response: REFERRAL | NS: b'm.cctld.us.'
+[2025-10-27 02:20:48.861] Server: 204.74.105.1 | Step: TLD | RTT: 0.1337s | Response: REFERRAL | NS: b'ns.supporthost.us.'
+[2025-10-27 02:20:49.504] Attempting to resolve NS: b'ns.supporthost.us.'
+[2025-10-27 02:20:49.846] Server: 198.41.0.4 | Step: Root | RTT: 0.3266s | Response: REFERRAL | NS: b'm.cctld.us.'
+[2025-10-27 02:20:50.456] Server: 204.74.105.1 | Step: TLD | RTT: 0.1741s | Response: REFERRAL | NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:20:50.481] Attempting to resolve NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:20:51.198] Server: 198.41.0.4 | Step: Root | RTT: 0.2309s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:52.098] Server: 192.41.162.30 | Step: TLD | RTT: 0.4366s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:52.643] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1890s | Response: ANSWER | IP: 108.162.193.169
+[2025-10-27 02:20:53.846] Attempting to resolve NS: b'jamie.ns.cloudflare.com.'
+[2025-10-27 02:20:54.137] Server: 198.41.0.4 | Step: Root | RTT: 0.2890s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:55.192] Server: 192.41.162.30 | Step: TLD | RTT: 0.3826s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:20:55.697] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.2855s | Response: ANSWER | IP: 173.245.58.168
+[2025-10-27 02:20:56.240] Server: 108.162.193.169 | Step: Authoritative | RTT: 0.1416s | Response: ANSWER | IP: 164.90.149.49
+[2025-10-27 02:20:56.523] Attempting to resolve NS: b'ns.supporthost.com.'
+[2025-10-27 02:20:56.995] Server: 198.41.0.4 | Step: Root | RTT: 0.2937s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:58.112] Server: 192.41.162.30 | Step: TLD | RTT: 0.5631s | Response: REFERRAL | NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:20:58.504] Server: 108.162.193.169 | Step: Authoritative | RTT: 0.1200s | Response: ANSWER | IP: 45.56.108.11
+[2025-10-27 02:20:58.956] Attempting to resolve NS: b'ns.supporthost.net.'
+[2025-10-27 02:20:59.356] Server: 198.41.0.4 | Step: Root | RTT: 0.3978s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:00.098] Server: 192.55.83.30 | Step: TLD | RTT: 0.3897s | Response: REFERRAL | NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:21:00.344] Attempting to resolve NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:21:01.059] Server: 198.41.0.4 | Step: Root | RTT: 0.3794s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:01.533] Server: 192.41.162.30 | Step: TLD | RTT: 0.3236s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:02.036] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1779s | Response: ANSWER | IP: 172.64.33.169
+[2025-10-27 02:21:02.775] Attempting to resolve NS: b'jamie.ns.cloudflare.com.'
+[2025-10-27 02:21:04.401] Server: 198.41.0.4 | Step: Root | RTT: 0.3192s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:05.262] Server: 192.41.162.30 | Step: TLD | RTT: 0.2694s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:06.158] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.3211s | Response: ANSWER | IP: 172.64.32.168
+[2025-10-27 02:21:06.465] Server: 172.64.33.169 | Step: Authoritative | RTT: 0.1239s | Response: ANSWER | IP: 51.75.17.47
+[2025-10-27 02:21:07.069] Attempting to resolve NS: b'ns.supporthost.eu.'
+[2025-10-27 02:21:07.319] Server: 198.41.0.4 | Step: Root | RTT: 0.2481s | Response: REFERRAL | NS: b'be.dns.eu.'
+[2025-10-27 02:21:07.911] Server: 149.38.1.26 | Step: TLD | RTT: 0.3843s | Response: REFERRAL | NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:21:08.027] Attempting to resolve NS: b'glen.ns.cloudflare.com.'
+[2025-10-27 02:21:08.378] Server: 198.41.0.4 | Step: Root | RTT: 0.3490s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:08.692] Server: 192.41.162.30 | Step: TLD | RTT: 0.2258s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:08.925] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.1112s | Response: ANSWER | IP: 108.162.193.169
+[2025-10-27 02:21:09.030] Attempting to resolve NS: b'jamie.ns.cloudflare.com.'
+[2025-10-27 02:21:09.325] Server: 198.41.0.4 | Step: Root | RTT: 0.2944s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:09.656] Server: 192.41.162.30 | Step: TLD | RTT: 0.2485s | Response: REFERRAL | NS: b'ns3.cloudflare.com.'
+[2025-10-27 02:21:10.023] Server: 162.159.0.33 | Step: Authoritative | RTT: 0.2204s | Response: ANSWER | IP: 172.64.32.168
+[2025-10-27 02:21:10.123] Server: 108.162.193.169 | Step: Authoritative | RTT: 0.0796s | Response: ANSWER | IP: 94.130.227.60
+[2025-10-27 02:21:10.513] Server: 164.90.149.49 | Step: Authoritative | RTT: 0.3793s | Response: ANSWER | IP: 136.243.45.246
+[2025-10-27 02:21:10.516] Domain: sitiweb.us. | Total Time: 22.4640s | Resolved IP: 136.243.45.246 | Total DNS Servers visited : 33
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:04.830] Domain: stark.dk. | Mode: Iterative
+[2025-10-27 02:21:05.536] Server: 198.41.0.4 | Step: Root | RTT: 0.3711s | Response: REFERRAL | NS: b'b.nic.dk.'
+[2025-10-27 02:21:06.291] Server: 193.163.102.222 | Step: TLD | RTT: 0.4437s | Response: REFERRAL | NS: b'ns-c.eurodns.eu.'
+[2025-10-27 02:21:06.732] Attempting to resolve NS: b'ns-c.eurodns.eu.'
+[2025-10-27 02:21:07.062] Server: 198.41.0.4 | Step: Root | RTT: 0.3294s | Response: REFERRAL | NS: b'be.dns.eu.'
+[2025-10-27 02:21:07.695] Server: 149.38.1.26 | Step: TLD | RTT: 0.4690s | Response: REFERRAL | NS: b'ns-b.eurodns.org.'
+[2025-10-27 02:21:07.943] Server: 192.174.68.110 | Step: Authoritative | RTT: 0.2024s | Response: ANSWER | IP: 192.174.68.110
+[2025-10-27 02:21:08.007] Attempting to resolve NS: b'ns-a.eurodns.com.'
+[2025-10-27 02:21:08.265] Server: 198.41.0.4 | Step: Root | RTT: 0.2539s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:08.669] Server: 192.41.162.30 | Step: TLD | RTT: 0.2562s | Response: REFERRAL | NS: b'ns-a.eurodns.com.'
+[2025-10-27 02:21:09.205] Server: 199.167.66.106 | Step: Authoritative | RTT: 0.1684s | Response: ANSWER | IP: 199.167.66.106
+[2025-10-27 02:21:09.210] Attempting to resolve NS: b'ns-b.eurodns.org.'
+[2025-10-27 02:21:09.502] Server: 198.41.0.4 | Step: Root | RTT: 0.2912s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:09.731] Server: 199.249.112.1 | Step: TLD | RTT: 0.2013s | Response: REFERRAL | NS: b'ns-a.eurodns.com.'
+[2025-10-27 02:21:10.012] Server: 104.37.178.106 | Step: Authoritative | RTT: 0.1896s | Response: ANSWER | IP: 104.37.178.106
+[2025-10-27 02:21:10.038] Attempting to resolve NS: b'ns-d.eurodns.biz.'
+[2025-10-27 02:21:10.244] Server: 198.41.0.4 | Step: Root | RTT: 0.2046s | Response: REFERRAL | NS: b'b.gtld.biz.'
+[2025-10-27 02:21:10.451] Server: 156.154.125.65 | Step: TLD | RTT: 0.1617s | Response: REFERRAL | NS: b'ns-a.eurodns.com.'
+[2025-10-27 02:21:10.585] Server: 176.97.158.110 | Step: Authoritative | RTT: 0.1153s | Response: ANSWER | IP: 176.97.158.110
+[2025-10-27 02:21:10.728] Server: 192.174.68.110 | Step: Authoritative | RTT: 0.1353s | Response: ANSWER | IP: 20.50.2.80
+[2025-10-27 02:21:10.738] Domain: stark.dk. | Total Time: 5.9085s | Resolved IP: 20.50.2.80 | Total DNS Servers visited : 15
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:59.541] Domain: msf.be. | Mode: Iterative
+[2025-10-27 02:21:00.363] Server: 198.41.0.4 | Step: Root | RTT: 0.2647s | Response: REFERRAL | NS: b'd.nsset.be.'
+[2025-10-27 02:21:01.063] Server: 194.0.44.1 | Step: TLD | RTT: 0.3204s | Response: REFERRAL | NS: b'ns3-01.azure-dns.org.'
+[2025-10-27 02:21:01.637] Attempting to resolve NS: b'ns3-01.azure-dns.org.'
+[2025-10-27 02:21:01.887] Server: 198.41.0.4 | Step: Root | RTT: 0.2330s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:02.923] Server: 199.249.112.1 | Step: TLD | RTT: 0.2510s | Response: REFERRAL | NS: b'ns3-01.azure-dns.org.'
+[2025-10-27 02:21:03.841] Server: 204.14.183.1 | Step: Authoritative | RTT: 0.3431s | Response: ANSWER | IP: 204.14.183.1
+[2025-10-27 02:21:04.422] Attempting to resolve NS: b'ns2-01.azure-dns.net.'
+[2025-10-27 02:21:04.699] Server: 198.41.0.4 | Step: Root | RTT: 0.2670s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:05.887] Server: 192.55.83.30 | Step: TLD | RTT: 0.2525s | Response: REFERRAL | NS: b'ns2-01.azure-dns.net.'
+[2025-10-27 02:21:06.302] Server: 150.171.21.1 | Step: Authoritative | RTT: 0.0875s | Response: ANSWER | IP: 150.171.21.1
+[2025-10-27 02:21:06.954] Attempting to resolve NS: b'ns1-01.azure-dns.com.'
+[2025-10-27 02:21:07.375] Server: 198.41.0.4 | Step: Root | RTT: 0.3110s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:07.974] Server: 192.41.162.30 | Step: TLD | RTT: 0.4092s | Response: REFERRAL | NS: b'ns1-01.azure-dns.com.'
+[2025-10-27 02:21:08.292] Server: 13.107.236.1 | Step: Authoritative | RTT: 0.1487s | Response: ANSWER | IP: 13.107.236.1
+[2025-10-27 02:21:08.406] Attempting to resolve NS: b'ns4-01.azure-dns.info.'
+[2025-10-27 02:21:08.624] Server: 198.41.0.4 | Step: Root | RTT: 0.2174s | Response: REFERRAL | NS: b'b0.info.afilias-nst.org.'
+[2025-10-27 02:21:08.883] Server: 199.254.48.1 | Step: TLD | RTT: 0.2371s | Response: REFERRAL | NS: b'ns4-02.azure-dns.info.'
+[2025-10-27 02:21:14.129] Server: 208.84.5.2 | Step: Authoritative | RTT: 5.0617s | Response: ANSWER | IP: 208.84.5.1
+[2025-10-27 02:21:14.223] Server: 204.14.183.1 | Step: Authoritative | RTT: 0.0872s | Response: ANSWER | IP: 77.241.81.151
+[2025-10-27 02:21:14.234] Domain: msf.be. | Total Time: 14.6924s | Resolved IP: 77.241.81.151 | Total DNS Servers visited : 16
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:55.268] Domain: pilsnerurquell.com. | Mode: Iterative
+[2025-10-27 02:20:55.915] Server: 198.41.0.4 | Step: Root | RTT: 0.4897s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:20:56.498] Server: 192.41.162.30 | Step: TLD | RTT: 0.3577s | Response: REFERRAL | NS: b'ns2.netnames.net.'
+[2025-10-27 02:20:56.794] Attempting to resolve NS: b'ns2.netnames.net.'
+[2025-10-27 02:20:57.439] Server: 198.41.0.4 | Step: Root | RTT: 0.6429s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:20:58.114] Server: 192.55.83.30 | Step: TLD | RTT: 0.3528s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:20:58.825] Attempting to resolve NS: b'udns1.cscudns.com.'
+[2025-10-27 02:20:59.383] Server: 198.41.0.4 | Step: Root | RTT: 0.5145s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:00.295] Server: 192.41.162.30 | Step: TLD | RTT: 0.3957s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:00.724] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1338s | Response: ANSWER | IP: 204.74.66.14
+[2025-10-27 02:21:00.916] Attempting to resolve NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:01.331] Server: 198.41.0.4 | Step: Root | RTT: 0.4142s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:02.286] Server: 199.249.112.1 | Step: TLD | RTT: 0.2490s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:03.686] Server: 204.74.104.20 | Step: Authoritative | RTT: 0.1618s | Response: ANSWER | IP: 204.74.104.20
+[2025-10-27 02:21:04.364] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.3094s | Response: ANSWER | IP: 156.154.131.100
+[2025-10-27 02:21:04.565] Attempting to resolve NS: b'ns1.netnames.net.'
+[2025-10-27 02:21:04.828] Server: 198.41.0.4 | Step: Root | RTT: 0.2571s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:05.427] Server: 192.55.83.30 | Step: TLD | RTT: 0.3623s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:05.836] Attempting to resolve NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:06.165] Server: 198.41.0.4 | Step: Root | RTT: 0.3279s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:06.654] Server: 192.41.162.30 | Step: TLD | RTT: 0.3083s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:07.042] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.2140s | Response: ANSWER | IP: 204.74.66.14
+[2025-10-27 02:21:07.182] Attempting to resolve NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:07.457] Server: 198.41.0.4 | Step: Root | RTT: 0.2720s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:07.895] Server: 199.249.112.1 | Step: TLD | RTT: 0.2533s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:08.142] Server: 204.74.104.20 | Step: Authoritative | RTT: 0.1463s | Response: ANSWER | IP: 204.74.104.20
+[2025-10-27 02:21:08.587] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1838s | Response: ANSWER | IP: 156.154.130.100
+[2025-10-27 02:21:08.662] Attempting to resolve NS: b'ns5.netnames.net.'
+[2025-10-27 02:21:09.005] Server: 198.41.0.4 | Step: Root | RTT: 0.3412s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:09.395] Server: 192.55.83.30 | Step: TLD | RTT: 0.3145s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:09.472] Attempting to resolve NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:09.772] Server: 198.41.0.4 | Step: Root | RTT: 0.2961s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:10.058] Server: 192.41.162.30 | Step: TLD | RTT: 0.2171s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:10.184] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1228s | Response: ANSWER | IP: 204.74.66.14
+[2025-10-27 02:21:10.186] Attempting to resolve NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:10.424] Server: 198.41.0.4 | Step: Root | RTT: 0.2374s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:10.630] Server: 199.249.112.1 | Step: TLD | RTT: 0.1953s | Response: REFERRAL | NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:10.757] Server: 204.74.104.20 | Step: Authoritative | RTT: 0.1063s | Response: ANSWER | IP: 204.74.104.20
+[2025-10-27 02:21:10.867] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.0933s | Response: ANSWER | IP: 156.154.130.100
+[2025-10-27 02:21:10.870] Attempting to resolve NS: b'ns6.netnames.net.'
+[2025-10-27 02:21:11.084] Server: 198.41.0.4 | Step: Root | RTT: 0.2133s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:11.391] Server: 192.55.83.30 | Step: TLD | RTT: 0.3038s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:11.392] Attempting to resolve NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:11.605] Server: 198.41.0.4 | Step: Root | RTT: 0.2115s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:11.809] Server: 192.41.162.30 | Step: TLD | RTT: 0.2029s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:11.946] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1236s | Response: ANSWER | IP: 204.74.66.14
+[2025-10-27 02:21:11.956] Attempting to resolve NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:12.133] Server: 198.41.0.4 | Step: Root | RTT: 0.1749s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:12.315] Server: 199.249.112.1 | Step: TLD | RTT: 0.1801s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:12.433] Server: 204.74.104.20 | Step: Authoritative | RTT: 0.1151s | Response: ANSWER | IP: 204.74.104.20
+[2025-10-27 02:21:12.553] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1182s | Response: ANSWER | IP: 156.154.131.100
+[2025-10-27 02:21:12.555] Attempting to resolve NS: b'ns7.netnames.net.'
+[2025-10-27 02:21:12.846] Server: 198.41.0.4 | Step: Root | RTT: 0.2904s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:13.138] Server: 192.55.83.30 | Step: TLD | RTT: 0.2889s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:13.139] Attempting to resolve NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:13.455] Server: 198.41.0.4 | Step: Root | RTT: 0.3142s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:13.752] Server: 192.41.162.30 | Step: TLD | RTT: 0.2955s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:13.866] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1113s | Response: ANSWER | IP: 204.74.66.14
+[2025-10-27 02:21:13.868] Attempting to resolve NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:14.107] Server: 198.41.0.4 | Step: Root | RTT: 0.2380s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:14.262] Server: 199.249.112.1 | Step: TLD | RTT: 0.1412s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:14.425] Server: 204.74.104.20 | Step: Authoritative | RTT: 0.1567s | Response: ANSWER | IP: 204.74.104.20
+[2025-10-27 02:21:14.576] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1372s | Response: ANSWER | IP: 156.154.130.100
+[2025-10-27 02:21:14.588] Attempting to resolve NS: b'ns8.netnames.net.'
+[2025-10-27 02:21:14.860] Server: 198.41.0.4 | Step: Root | RTT: 0.2698s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:15.110] Server: 192.55.83.30 | Step: TLD | RTT: 0.2243s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:15.120] Attempting to resolve NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:15.373] Server: 198.41.0.4 | Step: Root | RTT: 0.2507s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:15.564] Server: 192.41.162.30 | Step: TLD | RTT: 0.1880s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:15.711] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1197s | Response: ANSWER | IP: 204.74.66.14
+[2025-10-27 02:21:15.718] Attempting to resolve NS: b'udns2.cscudns.org.'
+[2025-10-27 02:21:16.016] Server: 198.41.0.4 | Step: Root | RTT: 0.2968s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:21:16.137] Server: 199.249.112.1 | Step: TLD | RTT: 0.1194s | Response: REFERRAL | NS: b'udns1.cscudns.com.'
+[2025-10-27 02:21:16.268] Server: 204.74.104.20 | Step: Authoritative | RTT: 0.1287s | Response: ANSWER | IP: 204.74.104.20
+[2025-10-27 02:21:16.412] Server: 204.74.66.14 | Step: Authoritative | RTT: 0.1413s | Response: ANSWER | IP: 156.154.131.100
+[2025-10-27 02:21:16.554] Server: 156.154.131.100 | Step: Authoritative | RTT: 0.1301s | Response: ANSWER | IP: 93.185.98.138
+[2025-10-27 02:21:16.556] Domain: pilsnerurquell.com. | Total Time: 21.2870s | Resolved IP: 93.185.98.138 | Total DNS Servers visited : 57
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:21:01.133] Domain: roche-applied-science.com. | Mode: Iterative
+[2025-10-27 02:21:01.690] Server: 198.41.0.4 | Step: Root | RTT: 0.2624s | Response: REFERRAL | NS: b'l.gtld-servers.net.'
+[2025-10-27 02:21:02.959] Server: 192.41.162.30 | Step: TLD | RTT: 0.2385s | Response: REFERRAL | NS: b'a1-178.akam.net.'
+[2025-10-27 02:21:03.380] Attempting to resolve NS: b'a1-178.akam.net.'
+[2025-10-27 02:21:03.836] Server: 198.41.0.4 | Step: Root | RTT: 0.4525s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:05.365] Server: 192.55.83.30 | Step: TLD | RTT: 0.3703s | Response: REFERRAL | NS: b'a18-67.akam.net.'
+[2025-10-27 02:21:06.301] Server: 95.101.36.67 | Step: Authoritative | RTT: 0.3885s | Response: ANSWER | IP: 193.108.91.178
+[2025-10-27 02:21:06.411] Attempting to resolve NS: b'a6-65.akam.net.'
+[2025-10-27 02:21:06.783] Server: 198.41.0.4 | Step: Root | RTT: 0.3529s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:07.681] Server: 192.55.83.30 | Step: TLD | RTT: 0.2087s | Response: REFERRAL | NS: b'a18-67.akam.net.'
+[2025-10-27 02:21:08.160] Server: 95.101.36.67 | Step: Authoritative | RTT: 0.4351s | Response: ANSWER | IP: 23.211.133.65
+[2025-10-27 02:21:08.272] Attempting to resolve NS: b'a18-66.akam.net.'
+[2025-10-27 02:21:08.514] Server: 198.41.0.4 | Step: Root | RTT: 0.2411s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:08.799] Server: 192.55.83.30 | Step: TLD | RTT: 0.2825s | Response: REFERRAL | NS: b'a18-67.akam.net.'
+[2025-10-27 02:21:14.310] Server: 95.100.173.67 | Step: Authoritative | RTT: 5.3451s | Response: ANSWER | IP: 95.101.36.66
+[2025-10-27 02:21:14.324] Attempting to resolve NS: b'a7-66.akam.net.'
+[2025-10-27 02:21:14.617] Server: 198.41.0.4 | Step: Root | RTT: 0.2899s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:14.823] Server: 192.55.83.30 | Step: TLD | RTT: 0.1888s | Response: REFERRAL | NS: b'a18-67.akam.net.'
+[2025-10-27 02:21:15.138] Server: 95.101.36.67 | Step: Authoritative | RTT: 0.2973s | Response: ANSWER | IP: 23.61.199.66
+[2025-10-27 02:21:15.142] Attempting to resolve NS: b'a9-66.akam.net.'
+[2025-10-27 02:21:15.341] Server: 198.41.0.4 | Step: Root | RTT: 0.1979s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:15.577] Server: 192.55.83.30 | Step: TLD | RTT: 0.2035s | Response: REFERRAL | NS: b'a18-67.akam.net.'
+[2025-10-27 02:21:16.004] Server: 95.101.36.67 | Step: Authoritative | RTT: 0.4087s | Response: ANSWER | IP: 184.85.248.66
+[2025-10-27 02:21:16.006] Attempting to resolve NS: b'a4-67.akam.net.'
+[2025-10-27 02:21:16.242] Server: 198.41.0.4 | Step: Root | RTT: 0.2353s | Response: REFERRAL | NS: b'm.gtld-servers.net.'
+[2025-10-27 02:21:16.458] Server: 192.55.83.30 | Step: TLD | RTT: 0.2036s | Response: REFERRAL | NS: b'a18-67.akam.net.'
+[2025-10-27 02:21:16.823] Server: 95.101.36.67 | Step: Authoritative | RTT: 0.3493s | Response: ANSWER | IP: 72.246.46.67
+[2025-10-27 02:21:16.928] Server: 193.108.91.178 | Step: Authoritative | RTT: 0.1032s | Response: ANSWER | IP: 149.250.245.221
+[2025-10-27 02:21:16.938] Domain: roche-applied-science.com. | Total Time: 15.8048s | Resolved IP: 149.250.245.221 | Total DNS Servers visited : 22
+----- End Query -----
+
+----- New Query -----
+[2025-10-27 02:20:56.278] Domain: njafe.org. | Mode: Iterative
+[2025-10-27 02:20:57.404] Server: 198.41.0.4 | Step: Root | RTT: 0.6556s | Response: REFERRAL | NS: b'a2.org.afilias-nst.info.'
+[2025-10-27 02:20:58.100] Server: 199.249.112.1 | Step: TLD | RTT: 0.3882s | Response: REFERRAL | NS: b'domain-may-be-for-sale-at.edoms.biz.'
+[2025-10-27 02:20:58.490] Attempting to resolve NS: b'domain-may-be-for-sale-at.edoms.biz.'
+[2025-10-27 02:20:58.748] Server: 198.41.0.4 | Step: Root | RTT: 0.2392s | Response: REFERRAL | NS: b'b.gtld.biz.'
+[2025-10-27 02:20:59.255] Server: 156.154.125.65 | Step: TLD | RTT: 0.1767s | Response: REFERRAL | NS: b'domain-may-be-for-sale-at.edoms.biz.'
+[2025-10-27 02:21:15.272] Server: 103.224.182.9 | Step: Authoritative | RTT: 15.6410s | Response: ANSWER | IP: 103.224.212.9
+[2025-10-27 02:21:15.284] Attempting to resolve NS: b'contact-us-at.edoms.biz.'
+[2025-10-27 02:21:15.475] Server: 198.41.0.4 | Step: Root | RTT: 0.1893s | Response: REFERRAL | NS: b'b.gtld.biz.'
+[2025-10-27 02:21:15.611] Server: 156.154.125.65 | Step: TLD | RTT: 0.1231s | Response: REFERRAL | NS: b'contact-us-at.edoms.biz.'
+[2025-10-27 02:21:31.057] Server: 103.224.182.9 | Step: Authoritative | RTT: 15.4116s | Response: ANSWER | IP: 103.224.212.10
+[2025-10-27 02:21:31.395] Server: 103.224.212.9 | Step: Authoritative | RTT: 0.3302s | Response: ANSWER | IP: 103.224.182.253
+[2025-10-27 02:21:31.406] Domain: njafe.org. | Total Time: 35.1274s | Resolved IP: 103.224.182.253 | Total DNS Servers visited : 15
+----- End Query -----
