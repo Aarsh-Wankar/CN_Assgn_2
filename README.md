@@ -31,6 +31,13 @@ h4 python measure_dns_threaded.py f_urls_h4.txt
 
 ## Custom DNS Resolver
 
+First setup the mininet topology with:
+
+```bash
+sudo python custom_topo.py
+```
+(Note that the only difference between basic_topo and custom_topo is the redirection of DNS requests to the custom resolver)
+
 To setup the custom DNS resolver, open a terminal for it using `xterm dns` and then run 
 
 ```bash
